@@ -25,11 +25,11 @@ one.sample.animation.form_in = cljs.core.ObjMap.fromObject(["﷐'effect","﷐'st
 * to reset the UI.
 */
 one.sample.animation.initialize_views = (function initialize_views(form_html,greeting_html){
-var content__12712 = domina.xpath.xpath.call(null,"//div[@id='content']");
+var content__15240 = domina.xpath.xpath.call(null,"//div[@id='content']");
 
-domina.destroy_children_BANG_.call(null,content__12712);
-domina.set_html_BANG_.call(null,content__12712,form_html);
-domina.append_BANG_.call(null,content__12712,greeting_html);
+domina.destroy_children_BANG_.call(null,content__15240);
+domina.set_html_BANG_.call(null,content__15240,form_html);
+domina.append_BANG_.call(null,content__15240,greeting_html);
 domina.set_styles_BANG_.call(null,domina.xpath.xpath.call(null,one.sample.animation.cloud),cljs.core.ObjMap.fromObject(["﷐'opacity","﷐'display","﷐'margin-top"],{"﷐'opacity":"0","﷐'display":"none","﷐'margin-top":"-500px"}));
 domina.set_styles_BANG_.call(null,domina.by_id.call(null,"greet-button"),cljs.core.ObjMap.fromObject(["﷐'opacity","﷐'disabled"],{"﷐'opacity":"0.2","﷐'disabled":true}));
 return one.browser.animation.play.call(null,one.sample.animation.form,one.sample.animation.form_in,cljs.core.ObjMap.fromObject(["﷐'after"],{"﷐'after":(function (){
@@ -65,9 +65,9 @@ return one.browser.animation.play.call(null,label,one.sample.animation.move_down
 * submit button is clicked and the form has valid input.
 */
 one.sample.animation.show_greeting = (function show_greeting(){
-var e__12713 = cljs.core.ObjMap.fromObject(["﷐'effect","﷐'start","﷐'end","﷐'time"],{"﷐'effect":"﷐'fade","﷐'start":1,"﷐'end":0,"﷐'time":500});
+var e__15241 = cljs.core.ObjMap.fromObject(["﷐'effect","﷐'start","﷐'end","﷐'time"],{"﷐'effect":"﷐'fade","﷐'start":1,"﷐'end":0,"﷐'time":500});
 
-return one.browser.animation.play_animation.call(null,one.browser.animation.parallel.call(null,one.browser.animation.bind.call(null,one.sample.animation.form,e__12713),one.browser.animation.bind.call(null,one.sample.animation.label,e__12713),one.browser.animation.bind.call(null,one.sample.animation.cloud,cljs.core.ObjMap.fromObject(["﷐'effect","﷐'time"],{"﷐'effect":"﷐'color","﷐'time":500}),cljs.core.ObjMap.fromObject(["﷐'effect","﷐'time"],{"﷐'effect":"﷐'fade-in-and-show","﷐'time":600}))),cljs.core.ObjMap.fromObject(["﷐'before","﷐'after"],{"﷐'before":(function (){
+return one.browser.animation.play_animation.call(null,one.browser.animation.parallel.call(null,one.browser.animation.bind.call(null,one.sample.animation.form,e__15241),one.browser.animation.bind.call(null,one.sample.animation.label,e__15241),one.browser.animation.bind.call(null,one.sample.animation.cloud,cljs.core.ObjMap.fromObject(["﷐'effect","﷐'time"],{"﷐'effect":"﷐'color","﷐'time":500}),cljs.core.ObjMap.fromObject(["﷐'effect","﷐'time"],{"﷐'effect":"﷐'fade-in-and-show","﷐'time":600}))),cljs.core.ObjMap.fromObject(["﷐'before","﷐'after"],{"﷐'before":(function (){
 return goog.dom.forms.setDisabled.call(null,domina.by_id.call(null,"name-input"),true);
 }),"﷐'after":(function (){
 return domina.set_styles_BANG_.call(null,domina.by_id.call(null,"greet-button"),cljs.core.ObjMap.fromObject(["﷐'display"],{"﷐'display":"none"}));
@@ -90,18 +90,18 @@ return domina.by_id.call(null,"name-input").focus(cljs.core.List.EMPTY);
 * button to 0.2 opacity.
 */
 one.sample.animation.disable_button = (function disable_button(id){
-var button__12714 = domina.by_id.call(null,id);
+var button__15242 = domina.by_id.call(null,id);
 
-goog.dom.forms.setDisabled.call(null,button__12714,true);
-return one.browser.animation.play.call(null,button__12714,cljs.core.ObjMap.fromObject(["﷐'effect","﷐'end","﷐'time"],{"﷐'effect":"﷐'fade","﷐'end":0.2,"﷐'time":400}));
+goog.dom.forms.setDisabled.call(null,button__15242,true);
+return one.browser.animation.play.call(null,button__15242,cljs.core.ObjMap.fromObject(["﷐'effect","﷐'end","﷐'time"],{"﷐'effect":"﷐'fade","﷐'end":0.2,"﷐'time":400}));
 });
 /**
 * Accepts an element id for a button and enables it. Fades the button
 * to an opactiy of 1.
 */
 one.sample.animation.enable_button = (function enable_button(id){
-var button__12715 = domina.by_id.call(null,id);
+var button__15243 = domina.by_id.call(null,id);
 
-goog.dom.forms.setDisabled.call(null,button__12715,false);
-return one.browser.animation.play.call(null,button__12715,one.sample.animation.fade_in);
+goog.dom.forms.setDisabled.call(null,button__15243,false);
+return one.browser.animation.play.call(null,button__15243,one.sample.animation.fade_in);
 });

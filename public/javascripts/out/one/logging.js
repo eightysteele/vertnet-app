@@ -5,25 +5,25 @@ goog.require('goog.debug.FancyWindow');
 goog.require('goog.debug.Logger');
 one.logging.ILogViewer = {};
 one.logging.start_display = (function start_display(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____13230 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____15735 = this$;
 
-if(cljs.core.truth_(and__3546__auto____13230))
+if(cljs.core.truth_(and__3546__auto____15735))
 {return this$.one$logging$ILogViewer$start_display;
 } else
-{return and__3546__auto____13230;
+{return and__3546__auto____15735;
 }
 })()))
 {return this$.one$logging$ILogViewer$start_display(this$);
 } else
-{return (function (){var or__3548__auto____13231 = (one.logging.start_display[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____15736 = (one.logging.start_display[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____13231))
-{return or__3548__auto____13231;
+if(cljs.core.truth_(or__3548__auto____15736))
+{return or__3548__auto____15736;
 } else
-{var or__3548__auto____13232 = (one.logging.start_display["_"]);
+{var or__3548__auto____15737 = (one.logging.start_display["_"]);
 
-if(cljs.core.truth_(or__3548__auto____13232))
-{return or__3548__auto____13232;
+if(cljs.core.truth_(or__3548__auto____15737))
+{return or__3548__auto____15737;
 } else
 {throw cljs.core.missing_protocol.call(null,"ILogViewer.start-display",this$);
 }
@@ -32,25 +32,25 @@ if(cljs.core.truth_(or__3548__auto____13232))
 }
 });
 one.logging.stop_display = (function stop_display(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____13233 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____15738 = this$;
 
-if(cljs.core.truth_(and__3546__auto____13233))
+if(cljs.core.truth_(and__3546__auto____15738))
 {return this$.one$logging$ILogViewer$stop_display;
 } else
-{return and__3546__auto____13233;
+{return and__3546__auto____15738;
 }
 })()))
 {return this$.one$logging$ILogViewer$stop_display(this$);
 } else
-{return (function (){var or__3548__auto____13234 = (one.logging.stop_display[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____15739 = (one.logging.stop_display[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____13234))
-{return or__3548__auto____13234;
+if(cljs.core.truth_(or__3548__auto____15739))
+{return or__3548__auto____15739;
 } else
-{var or__3548__auto____13235 = (one.logging.stop_display["_"]);
+{var or__3548__auto____15740 = (one.logging.stop_display["_"]);
 
-if(cljs.core.truth_(or__3548__auto____13235))
-{return or__3548__auto____13235;
+if(cljs.core.truth_(or__3548__auto____15740))
+{return or__3548__auto____15740;
 } else
 {throw cljs.core.missing_protocol.call(null,"ILogViewer.stop-display",this$);
 }
@@ -128,11 +128,11 @@ return logger.setLevel(cljs.core.get.call(null,one.logging.levels,level,goog.deb
 });
 goog.debug.FancyWindow.prototype.one$logging$ILogViewer$ = true;
 goog.debug.FancyWindow.prototype.one$logging$ILogViewer$start_display = (function (this$){
-var G__13236__13237 = this$;
+var G__15741__15742 = this$;
 
-G__13236__13237.setEnabled(true);
-G__13236__13237.init(cljs.core.List.EMPTY);
-return G__13236__13237;
+G__15741__15742.setEnabled(true);
+G__15741__15742.init(cljs.core.List.EMPTY);
+return G__15741__15742;
 });
 goog.debug.FancyWindow.prototype.one$logging$ILogViewer$stop_display = (function (this$){
 return this$.setCapturing(false);
