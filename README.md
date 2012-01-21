@@ -58,7 +58,7 @@ VertNet is deployed to CouchDB as an HTML5 CouchApp. To make deploying easier, l
 $ pip install couchapp
 ```
 
-The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `vertnet-app/app/.couchapprc`. That's where we specify our CouchDB server and credentials.
+The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `vertnet-app/couchapp/.couchapprc`. That's where we specify our CouchDB server and credentials.
 
 To deploy:
 
