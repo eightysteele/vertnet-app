@@ -6,7 +6,15 @@ VertNet-app is the web application for the VertNet project. It rides on ClojureS
 
 VertNet rides on the ClojureScript One framework. If you're new to ClojureScript One, watch this quick video. 
 
-To get started, let's fire up our command line and clone the project:
+It also rides on CouchDB, so we'll need to have that installed. Note that in our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`), we'll need to make sure that we're allowing JSONP requests by adding `allow_jsonp = true` to the `http` section:
+
+```bash
+[httpd]
+allow_jsonp = true
+# Other options...
+```
+
+To get started developing, let's fire up our command line and clone the project:
 
 ```bash
 $ git clone git@github.com:eightysteele/vertnet-app.git
