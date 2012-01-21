@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd `dirname $0`/..
+./script/build
+cp -R out/public app/_attachments
+cd app/_attachments
+couchapp deploy

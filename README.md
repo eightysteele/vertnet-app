@@ -43,4 +43,30 @@ script/cljs-repl
 ClojureScript:cljs.user> (js/alert "BOOM!") 
 ```
 
+# Deploying
+
+VertNet is deployed to CouchDB as an HTML5 CouchApp. To make deploying easier, let's install the `couchapp` Python script:
+
+```bash
+$ pip install couchapp
+```
+
+The CouchApp configuration file is located in `app/.couchapprc`. That's where we specify our CouchDB server and credentials.
+
+To deploy:
+
+```
+$ script/build
+$ cp -R out/public app/_attachments
+$ cd app/_attachments
+$ couchapp deploy
+```
+
+Or you can just run the `deploy` script:
+
+```bash
+$ script/deploy
+```
+
+VertNet is now deployed to CouchDB!
 
