@@ -44,7 +44,7 @@
   var uuidCache = [];
 
   $.extend($.couch, {
-    urlPrefix: '',
+    urlPrefix: 'http://127.0.0.1:5984',
     activeTasks: function(options) {
       ajax(
         {url: this.urlPrefix + "/_active_tasks"},
@@ -54,12 +54,14 @@
     },
 
     allDbs: function(options) {
-      ajax(
-        {url: this.urlPrefix + "/_all_dbs"},
-        options,
-        "An error occurred retrieving the list of all databases"
-      );
-    },
+        alert('duuuuud');
+      $.getJSON(
+          this.urlPrefix + "/_all_dbs", function(data) {console.log(data);});
+      // ajax(
+      //   {url: this.urlPrefix + "/_all_dbs"},
+      //   options,
+      //   "An error occurred retrieving the list of all databases"
+      },
 
     config: function(options, section, option, value) {
       var req = {url: this.urlPrefix + "/_config/"};

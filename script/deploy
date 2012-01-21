@@ -5,7 +5,7 @@ cd `dirname $0`/..
 ./script/build
 
 echo "Bundling CouchApp"
-cp -R out/public app/_attachments
+cp -R out/public/* app/_attachments
 
 cd app/_attachments
 
