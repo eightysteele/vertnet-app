@@ -33,22 +33,21 @@ That's it! Now we're ready to download all of the project dependencies and test 
 
 ```bash
 $ script/deps
-$ script/run # ctl-c to quit
-$ script/cljs-repl # ctl-c to quit
+$ script/run # This is just a sanity check! Press ctl-c to quit.
 ```
 
 When that's done, let's fire up Emacs and get a browser-connected REPL going!
 
 ```bash
 # Change working directory to vertnet-app.
-M-x cd
+M-x cd <ENTER> /path/to/vertnet-app
  
 # Start the REPL (the browser will open automatically).
-C-u M-x inferior-lisp
-script/cljs-repl 
+C-u M-x <ENTER> inferior-lisp <ENTER>
+script/cljs-repl <ENTER>
 
 # You should see an alert in the browser.
-ClojureScript:cljs.user> (js/alert "BOOM!") 
+ClojureScript:cljs.user> (js/alert "BOOM!") <ENTER> 
 ```
 
 # Deploying
@@ -59,7 +58,7 @@ VertNet is deployed to CouchDB as an HTML5 CouchApp. To make deploying easier, l
 $ pip install couchapp
 ```
 
-The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `app/.couchapprc`. That's where we specify our CouchDB server and credentials.
+The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `vertnet-app/app/.couchapprc`. That's where we specify our CouchDB server and credentials.
 
 To deploy:
 
