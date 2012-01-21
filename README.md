@@ -6,7 +6,7 @@ VertNet-app is the web application for the [VertNet](http://vertnet.org) project
 
 VertNet rides on the [ClojureScript One](http://clojurescriptone.com) framework. For a good introduction to it, watch this quick [video](http://vimeo.com/35153207). 
 
-VertNet also rides on [CouchDB](couchdb.apache.org), so we'll need to have that installed. Note that in our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`), we'll need to make sure that we're allowing JSONP:
+VertNet also rides on [CouchDB](couchdb.apache.org), so we'll need to have that installed. Note that when we're developing the app, we'll need our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`) to allow [JSONP](http://en.wikipedia.org/wiki/JSONP) since our app server is different than our CouchDB server:
 
 ```bash
 [httpd]
@@ -58,7 +58,7 @@ VertNet is deployed to CouchDB as an HTML5 CouchApp. To make deploying easier, l
 $ pip install couchapp
 ```
 
-The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `vertnet-app/app/.couchapprc`. That's where we specify our CouchDB server and credentials.
+The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `vertnet-app/couchapp/.couchapprc`. That's where we specify our CouchDB server and credentials.
 
 To deploy:
 
