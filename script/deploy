@@ -1,7 +1,15 @@
 #!/bin/bash
 
 cd `dirname $0`/..
+
 ./script/build
+
+echo "Bundling CouchApp"
 cp -R out/public app/_attachments
+
 cd app/_attachments
-couchapp deploy
+
+echo "Deploying to CouchDB"
+couchapp push
+
+echo "Done!"

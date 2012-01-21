@@ -55,15 +55,6 @@ The CouchApp configuration file is located in `app/.couchapprc`. That's where we
 
 To deploy:
 
-```
-$ script/build
-$ cp -R out/public app/_attachments
-$ cd app/_attachments
-$ couchapp deploy
-```
-
-Or you can just run the `deploy` script:
-
 ```bash
 $ script/deploy
 ```
