@@ -3,25 +3,25 @@ goog.require('cljs.core');
 goog.require('goog.style');
 one.core.Startable = {};
 one.core.start = (function start(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5778 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4978 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5778))
+if(cljs.core.truth_(and__3546__auto____4978))
 {return this$.one$core$Startable$start;
 } else
-{return and__3546__auto____5778;
+{return and__3546__auto____4978;
 }
 })()))
 {return this$.one$core$Startable$start(this$);
 } else
-{return (function (){var or__3548__auto____5779 = (one.core.start[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4979 = (one.core.start[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5779))
-{return or__3548__auto____5779;
+if(cljs.core.truth_(or__3548__auto____4979))
+{return or__3548__auto____4979;
 } else
-{var or__3548__auto____5780 = (one.core.start["_"]);
+{var or__3548__auto____4980 = (one.core.start["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5780))
-{return or__3548__auto____5780;
+if(cljs.core.truth_(or__3548__auto____4980))
+{return or__3548__auto____4980;
 } else
 {throw cljs.core.missing_protocol.call(null,"Startable.start",this$);
 }
@@ -31,25 +31,25 @@ if(cljs.core.truth_(or__3548__auto____5780))
 });
 one.core.Disposable = {};
 one.core.dispose = (function dispose(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5782 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4982 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5782))
+if(cljs.core.truth_(and__3546__auto____4982))
 {return this$.one$core$Disposable$dispose;
 } else
-{return and__3546__auto____5782;
+{return and__3546__auto____4982;
 }
 })()))
 {return this$.one$core$Disposable$dispose(this$);
 } else
-{return (function (){var or__3548__auto____5783 = (one.core.dispose[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4983 = (one.core.dispose[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5783))
-{return or__3548__auto____5783;
+if(cljs.core.truth_(or__3548__auto____4983))
+{return or__3548__auto____4983;
 } else
-{var or__3548__auto____5784 = (one.core.dispose["_"]);
+{var or__3548__auto____4984 = (one.core.dispose["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5784))
-{return or__3548__auto____5784;
+if(cljs.core.truth_(or__3548__auto____4984))
+{return or__3548__auto____4984;
 } else
 {throw cljs.core.missing_protocol.call(null,"Disposable.dispose",this$);
 }
@@ -63,11 +63,11 @@ if(cljs.core.truth_(or__3548__auto____5784))
 * below.
 */
 one.core.get_style = (function get_style(element,style){
-return cljs.core.some.call(null,(function (p1__5781_SHARP_){
-var v__5785 = p1__5781_SHARP_.call(null);
+return cljs.core.some.call(null,(function (p1__4981_SHARP_){
+var v__4985 = p1__4981_SHARP_.call(null);
 
-if(cljs.core.truth_(cljs.core.not_EQ_.call(null,"",v__5785)))
-{return v__5785;
+if(cljs.core.truth_(cljs.core.not_EQ_.call(null,"",v__4985)))
+{return v__4985;
 } else
 {return null;
 }

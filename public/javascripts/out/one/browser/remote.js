@@ -6,10 +6,10 @@ goog.require('clojure.browser.event');
 goog.require('goog.net.XhrManager');
 one.browser.remote.responders = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
 one.browser.remote.add_responders = (function add_responders(id,success,error){
-if(cljs.core.truth_((function (){var or__3548__auto____6608 = success;
+if(cljs.core.truth_((function (){var or__3548__auto____5352 = success;
 
-if(cljs.core.truth_(or__3548__auto____6608))
-{return or__3548__auto____6608;
+if(cljs.core.truth_(or__3548__auto____5352))
+{return or__3548__auto____5352;
 } else
 {return error;
 }
@@ -21,12 +21,12 @@ if(cljs.core.truth_(or__3548__auto____6608))
 });
 goog.net.XhrManager.prototype.clojure$browser$event$EventType$ = true;
 goog.net.XhrManager.prototype.clojure$browser$event$EventType$event_types = (function (this$){
-return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__6609){
-var vec__6610__6611 = p__6609;
-var k__6612 = cljs.core.nth.call(null,vec__6610__6611,0,null);
-var v__6613 = cljs.core.nth.call(null,vec__6610__6611,1,null);
+return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__5353){
+var vec__5354__5355 = p__5353;
+var k__5356 = cljs.core.nth.call(null,vec__5354__5355,0,null);
+var v__5357 = cljs.core.nth.call(null,vec__5354__5355,1,null);
 
-return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__6612.toLowerCase()),v__6613]);
+return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__5356.toLowerCase()),v__5357]);
 }),cljs.core.js__GT_clj.call(null,goog.net.EventType)));
 });
 one.browser.remote._STAR_xhr_manager_STAR_ = (new goog.net.XhrManager(null,null,null,0,5000));
@@ -44,71 +44,71 @@ one.browser.remote._STAR_xhr_manager_STAR_ = (new goog.net.XhrManager(null,null,
 * @param {...*} var_args
 */
 one.browser.remote.request = (function() { 
-var request__delegate = function (id,url,p__6614){
-var map__6615__6616 = p__6614;
-var map__6615__6617 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6615__6616))?cljs.core.apply.call(null,cljs.core.hash_map,map__6615__6616):map__6615__6616);
-var on_error__6618 = cljs.core.get.call(null,map__6615__6617,"﷐'on-error");
-var on_success__6619 = cljs.core.get.call(null,map__6615__6617,"﷐'on-success");
-var retries__6620 = cljs.core.get.call(null,map__6615__6617,"﷐'retries",0);
-var priority__6621 = cljs.core.get.call(null,map__6615__6617,"﷐'priority");
-var headers__6622 = cljs.core.get.call(null,map__6615__6617,"﷐'headers");
-var content__6623 = cljs.core.get.call(null,map__6615__6617,"﷐'content");
-var method__6624 = cljs.core.get.call(null,map__6615__6617,"﷐'method","GET");
+var request__delegate = function (id,url,p__5358){
+var map__5359__5360 = p__5358;
+var map__5359__5361 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5359__5360))?cljs.core.apply.call(null,cljs.core.hash_map,map__5359__5360):map__5359__5360);
+var on_error__5362 = cljs.core.get.call(null,map__5359__5361,"﷐'on-error");
+var on_success__5363 = cljs.core.get.call(null,map__5359__5361,"﷐'on-success");
+var retries__5364 = cljs.core.get.call(null,map__5359__5361,"﷐'retries",0);
+var priority__5365 = cljs.core.get.call(null,map__5359__5361,"﷐'priority");
+var headers__5366 = cljs.core.get.call(null,map__5359__5361,"﷐'headers");
+var content__5367 = cljs.core.get.call(null,map__5359__5361,"﷐'content");
+var method__5368 = cljs.core.get.call(null,map__5359__5361,"﷐'method","GET");
 
-try{one.browser.remote.add_responders.call(null,id,on_success__6619,on_error__6618);
-return one.browser.remote._STAR_xhr_manager_STAR_.send(id,url,method__6624,content__6623,headers__6622,priority__6621,null,retries__6620);
-}catch (e6625){if(cljs.core.truth_(cljs.core.instance_QMARK_.call(null,Error,e6625)))
-{var e__6626 = e6625;
+try{one.browser.remote.add_responders.call(null,id,on_success__5363,on_error__5362);
+return one.browser.remote._STAR_xhr_manager_STAR_.send(id,url,method__5368,content__5367,headers__5366,priority__5365,null,retries__5364);
+}catch (e5369){if(cljs.core.truth_(cljs.core.instance_QMARK_.call(null,Error,e5369)))
+{var e__5370 = e5369;
 
 return null;
 } else
 {if(cljs.core.truth_("﷐'else"))
-{throw e6625;
+{throw e5369;
 } else
 {return null;
 }
 }
 }};
 var request = function (id,url,var_args){
-var p__6614 = null;
+var p__5358 = null;
 if (goog.isDef(var_args)) {
-  p__6614 = cljs.core.array_seq(Array.prototype.slice.call(arguments, 2),0);
+  p__5358 = cljs.core.array_seq(Array.prototype.slice.call(arguments, 2),0);
 } 
-return request__delegate.call(this, id, url, p__6614);
+return request__delegate.call(this, id, url, p__5358);
 };
 request.cljs$lang$maxFixedArity = 2;
-request.cljs$lang$applyTo = (function (arglist__6627){
-var id = cljs.core.first(arglist__6627);
-var url = cljs.core.first(cljs.core.next(arglist__6627));
-var p__6614 = cljs.core.rest(cljs.core.next(arglist__6627));
-return request__delegate.call(this, id, url, p__6614);
+request.cljs$lang$applyTo = (function (arglist__5371){
+var id = cljs.core.first(arglist__5371);
+var url = cljs.core.first(cljs.core.next(arglist__5371));
+var p__5358 = cljs.core.rest(cljs.core.next(arglist__5371));
+return request__delegate.call(this, id, url, p__5358);
 });
 return request;
 })()
 ;
 one.browser.remote.response_success = (function response_success(e){
-var temp__3698__auto____6628 = cljs.core.get.call(null,cljs.core.deref.call(null,one.browser.remote.responders),"﷐'id".call(null,e));
+var temp__3698__auto____5372 = cljs.core.get.call(null,cljs.core.deref.call(null,one.browser.remote.responders),"﷐'id".call(null,e));
 
-if(cljs.core.truth_(temp__3698__auto____6628))
-{var map__6629__6630 = temp__3698__auto____6628;
-var map__6629__6631 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6629__6630))?cljs.core.apply.call(null,cljs.core.hash_map,map__6629__6630):map__6629__6630);
-var success__6632 = cljs.core.get.call(null,map__6629__6631,"﷐'success");
+if(cljs.core.truth_(temp__3698__auto____5372))
+{var map__5373__5374 = temp__3698__auto____5372;
+var map__5373__5375 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5373__5374))?cljs.core.apply.call(null,cljs.core.hash_map,map__5373__5374):map__5373__5374);
+var success__5376 = cljs.core.get.call(null,map__5373__5375,"﷐'success");
 
-success__6632.call(null,e);
+success__5376.call(null,e);
 return cljs.core.swap_BANG_.call(null,one.browser.remote.responders,cljs.core.dissoc,"﷐'id".call(null,e));
 } else
 {return null;
 }
 });
 one.browser.remote.response_error = (function response_error(e){
-var temp__3698__auto____6633 = cljs.core.get.call(null,cljs.core.deref.call(null,one.browser.remote.responders),"﷐'id".call(null,e));
+var temp__3698__auto____5377 = cljs.core.get.call(null,cljs.core.deref.call(null,one.browser.remote.responders),"﷐'id".call(null,e));
 
-if(cljs.core.truth_(temp__3698__auto____6633))
-{var map__6634__6635 = temp__3698__auto____6633;
-var map__6634__6636 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6634__6635))?cljs.core.apply.call(null,cljs.core.hash_map,map__6634__6635):map__6634__6635);
-var error__6637 = cljs.core.get.call(null,map__6634__6636,"﷐'error");
+if(cljs.core.truth_(temp__3698__auto____5377))
+{var map__5378__5379 = temp__3698__auto____5377;
+var map__5378__5380 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5378__5379))?cljs.core.apply.call(null,cljs.core.hash_map,map__5378__5379):map__5378__5379);
+var error__5381 = cljs.core.get.call(null,map__5378__5380,"﷐'error");
 
-error__6637.call(null,e);
+error__5381.call(null,e);
 return cljs.core.swap_BANG_.call(null,one.browser.remote.responders,cljs.core.dissoc,"﷐'id".call(null,e));
 } else
 {return null;

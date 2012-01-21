@@ -5,12 +5,12 @@ goog.require('goog.History');
 goog.require('goog.history.Html5History');
 goog.History.prototype.clojure$browser$event$EventType$ = true;
 goog.History.prototype.clojure$browser$event$EventType$event_types = (function (this$){
-return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__6646){
-var vec__6647__6648 = p__6646;
-var k__6649 = cljs.core.nth.call(null,vec__6647__6648,0,null);
-var v__6650 = cljs.core.nth.call(null,vec__6647__6648,1,null);
+return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__5390){
+var vec__5391__5392 = p__5390;
+var k__5393 = cljs.core.nth.call(null,vec__5391__5392,0,null);
+var v__5394 = cljs.core.nth.call(null,vec__5391__5392,1,null);
 
-return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__6649.toLowerCase()),v__6650]);
+return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__5393.toLowerCase()),v__5394]);
 }),cljs.core.js__GT_clj.call(null,goog.history.EventType)));
 });
 /**
@@ -26,13 +26,13 @@ return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__6649.toLowerCa
 * function.
 */
 one.browser.history.history = (function history(callback){
-var h__6651 = (cljs.core.truth_(goog.history.Html5History.isSupported.call(null))?(new goog.history.Html5History()):(new goog.History()));
+var h__5395 = (cljs.core.truth_(goog.history.Html5History.isSupported.call(null))?(new goog.history.Html5History()):(new goog.History()));
 
-clojure.browser.event.listen.call(null,h__6651,"navigate",(function (e){
+clojure.browser.event.listen.call(null,h__5395,"navigate",(function (e){
 return callback.call(null,cljs.core.ObjMap.fromObject(["﷐'token","﷐'type","﷐'navigation?"],{"﷐'token":cljs.core.keyword.call(null,e.token),"﷐'type":e.type,"﷐'navigation?":e.isNavigation}));
 }));
-h__6651.setEnabled(true);
-return h__6651;
+h__5395.setEnabled(true);
+return h__5395;
 });
 /**
 * Sets the `history` state. The URL fragment will be set to the

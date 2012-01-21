@@ -5,14 +5,14 @@ goog.require('one.browser.history');
 /**
 * Handle navigation events by firing the appropriate view token.
 */
-one.sample.history.nav_handler = (function nav_handler(p__5564){
-var map__5565__5566 = p__5564;
-var map__5565__5567 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5565__5566))?cljs.core.apply.call(null,cljs.core.hash_map,map__5565__5566):map__5565__5566);
-var navigation_QMARK___5568 = cljs.core.get.call(null,map__5565__5567,"﷐'navigation?");
-var token__5569 = cljs.core.get.call(null,map__5565__5567,"﷐'token");
+one.sample.history.nav_handler = (function nav_handler(p__4764){
+var map__4765__4766 = p__4764;
+var map__4765__4767 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__4765__4766))?cljs.core.apply.call(null,cljs.core.hash_map,map__4765__4766):map__4765__4766);
+var navigation_QMARK___4768 = cljs.core.get.call(null,map__4765__4767,"﷐'navigation?");
+var token__4769 = cljs.core.get.call(null,map__4765__4767,"﷐'token");
 
-if(cljs.core.truth_(navigation_QMARK___5568))
-{return one.dispatch.fire.call(null,token__5569);
+if(cljs.core.truth_(navigation_QMARK___4768))
+{return one.dispatch.fire.call(null,token__4769);
 } else
 {return null;
 }

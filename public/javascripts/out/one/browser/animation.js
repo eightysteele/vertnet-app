@@ -39,25 +39,25 @@ if(cljs.core.truth_(cljs.core.keyword_QMARK_.call(null,e)))
 });
 one.browser.animation.IPosition = {};
 one.browser.animation.position = (function position(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5786 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4986 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5786))
+if(cljs.core.truth_(and__3546__auto____4986))
 {return this$.one$browser$animation$IPosition$position;
 } else
-{return and__3546__auto____5786;
+{return and__3546__auto____4986;
 }
 })()))
 {return this$.one$browser$animation$IPosition$position(this$);
 } else
-{return (function (){var or__3548__auto____5787 = (one.browser.animation.position[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4987 = (one.browser.animation.position[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5787))
-{return or__3548__auto____5787;
+if(cljs.core.truth_(or__3548__auto____4987))
+{return or__3548__auto____4987;
 } else
-{var or__3548__auto____5788 = (one.browser.animation.position["_"]);
+{var or__3548__auto____4988 = (one.browser.animation.position["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5788))
-{return or__3548__auto____5788;
+if(cljs.core.truth_(or__3548__auto____4988))
+{return or__3548__auto____4988;
 } else
 {throw cljs.core.missing_protocol.call(null,"IPosition.position",this$);
 }
@@ -67,9 +67,9 @@ if(cljs.core.truth_(or__3548__auto____5788))
 });
 Element.prototype.one$browser$animation$IPosition$ = true;
 Element.prototype.one$browser$animation$IPosition$position = (function (this$){
-var p__5789 = cljs.core.js__GT_clj.call(null,goog.style.getPosition.call(null,this$),"﷐'keywordize-keys",true);
+var p__4989 = cljs.core.js__GT_clj.call(null,goog.style.getPosition.call(null,this$),"﷐'keywordize-keys",true);
 
-return cljs.core.Vector.fromArray(["﷐'x".call(null,p__5789),"﷐'y".call(null,p__5789)]);
+return cljs.core.Vector.fromArray(["﷐'x".call(null,p__4989),"﷐'y".call(null,p__4989)]);
 });
 Array.prototype.one$browser$animation$IPosition$ = true;
 Array.prototype.one$browser$animation$IPosition$position = (function (this$){
@@ -81,25 +81,25 @@ return this$;
 });
 one.browser.animation.IScroll = {};
 one.browser.animation.scroll = (function scroll(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5790 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4990 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5790))
+if(cljs.core.truth_(and__3546__auto____4990))
 {return this$.one$browser$animation$IScroll$scroll;
 } else
-{return and__3546__auto____5790;
+{return and__3546__auto____4990;
 }
 })()))
 {return this$.one$browser$animation$IScroll$scroll(this$);
 } else
-{return (function (){var or__3548__auto____5791 = (one.browser.animation.scroll[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4991 = (one.browser.animation.scroll[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5791))
-{return or__3548__auto____5791;
+if(cljs.core.truth_(or__3548__auto____4991))
+{return or__3548__auto____4991;
 } else
-{var or__3548__auto____5792 = (one.browser.animation.scroll["_"]);
+{var or__3548__auto____4992 = (one.browser.animation.scroll["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5792))
-{return or__3548__auto____5792;
+if(cljs.core.truth_(or__3548__auto____4992))
+{return or__3548__auto____4992;
 } else
 {throw cljs.core.missing_protocol.call(null,"IScroll.scroll",this$);
 }
@@ -121,25 +121,25 @@ return cljs.core.Vector.fromArray([0,this$]);
 });
 one.browser.animation.ISize = {};
 one.browser.animation.size = (function size(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5793 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4993 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5793))
+if(cljs.core.truth_(and__3546__auto____4993))
 {return this$.one$browser$animation$ISize$size;
 } else
-{return and__3546__auto____5793;
+{return and__3546__auto____4993;
 }
 })()))
 {return this$.one$browser$animation$ISize$size(this$);
 } else
-{return (function (){var or__3548__auto____5794 = (one.browser.animation.size[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4994 = (one.browser.animation.size[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5794))
-{return or__3548__auto____5794;
+if(cljs.core.truth_(or__3548__auto____4994))
+{return or__3548__auto____4994;
 } else
-{var or__3548__auto____5795 = (one.browser.animation.size["_"]);
+{var or__3548__auto____4995 = (one.browser.animation.size["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5795))
-{return or__3548__auto____5795;
+if(cljs.core.truth_(or__3548__auto____4995))
+{return or__3548__auto____4995;
 } else
 {throw cljs.core.missing_protocol.call(null,"ISize.size",this$);
 }
@@ -148,25 +148,25 @@ if(cljs.core.truth_(or__3548__auto____5795))
 }
 });
 one.browser.animation.width = (function width(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5796 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4996 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5796))
+if(cljs.core.truth_(and__3546__auto____4996))
 {return this$.one$browser$animation$ISize$width;
 } else
-{return and__3546__auto____5796;
+{return and__3546__auto____4996;
 }
 })()))
 {return this$.one$browser$animation$ISize$width(this$);
 } else
-{return (function (){var or__3548__auto____5797 = (one.browser.animation.width[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____4997 = (one.browser.animation.width[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5797))
-{return or__3548__auto____5797;
+if(cljs.core.truth_(or__3548__auto____4997))
+{return or__3548__auto____4997;
 } else
-{var or__3548__auto____5798 = (one.browser.animation.width["_"]);
+{var or__3548__auto____4998 = (one.browser.animation.width["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5798))
-{return or__3548__auto____5798;
+if(cljs.core.truth_(or__3548__auto____4998))
+{return or__3548__auto____4998;
 } else
 {throw cljs.core.missing_protocol.call(null,"ISize.width",this$);
 }
@@ -175,25 +175,25 @@ if(cljs.core.truth_(or__3548__auto____5798))
 }
 });
 one.browser.animation.height = (function height(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5799 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____4999 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5799))
+if(cljs.core.truth_(and__3546__auto____4999))
 {return this$.one$browser$animation$ISize$height;
 } else
-{return and__3546__auto____5799;
+{return and__3546__auto____4999;
 }
 })()))
 {return this$.one$browser$animation$ISize$height(this$);
 } else
-{return (function (){var or__3548__auto____5800 = (one.browser.animation.height[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____5000 = (one.browser.animation.height[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5800))
-{return or__3548__auto____5800;
+if(cljs.core.truth_(or__3548__auto____5000))
+{return or__3548__auto____5000;
 } else
-{var or__3548__auto____5801 = (one.browser.animation.height["_"]);
+{var or__3548__auto____5001 = (one.browser.animation.height["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5801))
-{return or__3548__auto____5801;
+if(cljs.core.truth_(or__3548__auto____5001))
+{return or__3548__auto____5001;
 } else
 {throw cljs.core.missing_protocol.call(null,"ISize.height",this$);
 }
@@ -203,9 +203,9 @@ if(cljs.core.truth_(or__3548__auto____5801))
 });
 Element.prototype.one$browser$animation$ISize$ = true;
 Element.prototype.one$browser$animation$ISize$size = (function (this$){
-var s__5802 = cljs.core.js__GT_clj.call(null,goog.style.getSize.call(null,this$),"﷐'keywordize-keys",true);
+var s__5002 = cljs.core.js__GT_clj.call(null,goog.style.getSize.call(null,this$),"﷐'keywordize-keys",true);
 
-return cljs.core.Vector.fromArray(["﷐'width".call(null,s__5802),"﷐'height".call(null,s__5802)]);
+return cljs.core.Vector.fromArray(["﷐'width".call(null,s__5002),"﷐'height".call(null,s__5002)]);
 });
 Element.prototype.one$browser$animation$ISize$width = (function (this$){
 return one.browser.animation.width.call(null,one.browser.animation.size.call(null,this$));
@@ -235,25 +235,25 @@ return this$;
 });
 one.browser.animation.IOpacity = {};
 one.browser.animation.opacity = (function opacity(this$){
-if(cljs.core.truth_((function (){var and__3546__auto____5803 = this$;
+if(cljs.core.truth_((function (){var and__3546__auto____5003 = this$;
 
-if(cljs.core.truth_(and__3546__auto____5803))
+if(cljs.core.truth_(and__3546__auto____5003))
 {return this$.one$browser$animation$IOpacity$opacity;
 } else
-{return and__3546__auto____5803;
+{return and__3546__auto____5003;
 }
 })()))
 {return this$.one$browser$animation$IOpacity$opacity(this$);
 } else
-{return (function (){var or__3548__auto____5804 = (one.browser.animation.opacity[goog.typeOf.call(null,this$)]);
+{return (function (){var or__3548__auto____5004 = (one.browser.animation.opacity[goog.typeOf.call(null,this$)]);
 
-if(cljs.core.truth_(or__3548__auto____5804))
-{return or__3548__auto____5804;
+if(cljs.core.truth_(or__3548__auto____5004))
+{return or__3548__auto____5004;
 } else
-{var or__3548__auto____5805 = (one.browser.animation.opacity["_"]);
+{var or__3548__auto____5005 = (one.browser.animation.opacity["_"]);
 
-if(cljs.core.truth_(or__3548__auto____5805))
-{return or__3548__auto____5805;
+if(cljs.core.truth_(or__3548__auto____5005))
+{return or__3548__auto____5005;
 } else
 {throw cljs.core.missing_protocol.call(null,"IOpacity.opacity",this$);
 }
@@ -283,12 +283,12 @@ return this$.play(cljs.core.List.EMPTY);
 });
 goog.fx.dom.PredefinedEffect.prototype.clojure$browser$event$EventType$ = true;
 goog.fx.dom.PredefinedEffect.prototype.clojure$browser$event$EventType$event_types = (function (this$){
-return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__5806){
-var vec__5807__5808 = p__5806;
-var k__5809 = cljs.core.nth.call(null,vec__5807__5808,0,null);
-var v__5810 = cljs.core.nth.call(null,vec__5807__5808,1,null);
+return cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),cljs.core.map.call(null,(function (p__5006){
+var vec__5007__5008 = p__5006;
+var k__5009 = cljs.core.nth.call(null,vec__5007__5008,0,null);
+var v__5010 = cljs.core.nth.call(null,vec__5007__5008,1,null);
 
-return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__5809.toLowerCase()),v__5810]);
+return cljs.core.Vector.fromArray([cljs.core.keyword.call(null,k__5009.toLowerCase()),v__5010]);
 }),cljs.core.merge.call(null,cljs.core.js__GT_clj.call(null,goog.fx.Animation.EventType))));
 });
 goog.fx.dom.PredefinedEffect.prototype.one$core$Disposable$ = true;
@@ -304,13 +304,13 @@ return this$.play(cljs.core.List.EMPTY);
 * keyword. Implementing this as a multimethod allows developers to add new
 * functions and still represent effects as data.
 */
-one.browser.animation.acceleration = (function (){var method_table__1524__auto____5811 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var prefer_table__1525__auto____5812 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var method_cache__1526__auto____5813 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var cached_hierarchy__1527__auto____5814 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var hierarchy__1528__auto____5815 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject(["﷐'default"],{"﷐'default":"﷐'ease-out"}),"﷐'hierarchy",cljs.core.global_hierarchy);
+one.browser.animation.acceleration = (function (){var method_table__1524__auto____5011 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var prefer_table__1525__auto____5012 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var method_cache__1526__auto____5013 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var cached_hierarchy__1527__auto____5014 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var hierarchy__1528__auto____5015 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject(["﷐'default"],{"﷐'default":"﷐'ease-out"}),"﷐'hierarchy",cljs.core.global_hierarchy);
 
-return (new cljs.core.MultiFn("acceleration",cljs.core.identity,"﷐'ease-out",hierarchy__1528__auto____5815,method_table__1524__auto____5811,prefer_table__1525__auto____5812,method_cache__1526__auto____5813,cached_hierarchy__1527__auto____5814));
+return (new cljs.core.MultiFn("acceleration",cljs.core.identity,"﷐'ease-out",hierarchy__1528__auto____5015,method_table__1524__auto____5011,prefer_table__1525__auto____5012,method_cache__1526__auto____5013,cached_hierarchy__1527__auto____5014));
 })();
 cljs.core._add_method.call(null,one.browser.animation.acceleration,"﷐'ease-out",(function (name){
 return goog.fx.easing.easeOut;
@@ -326,15 +326,15 @@ return goog.fx.easing.inAndOut;
 * function or `nil`.
 */
 one.browser.animation.accel = (function accel(m){
-var temp__3698__auto____5816 = "﷐'accel".call(null,m);
+var temp__3698__auto____5016 = "﷐'accel".call(null,m);
 
-if(cljs.core.truth_(temp__3698__auto____5816))
-{var a__5817 = temp__3698__auto____5816;
+if(cljs.core.truth_(temp__3698__auto____5016))
+{var a__5017 = temp__3698__auto____5016;
 
-if(cljs.core.truth_(cljs.core.fn_QMARK_.call(null,a__5817)))
-{return a__5817;
+if(cljs.core.truth_(cljs.core.fn_QMARK_.call(null,a__5017)))
+{return a__5017;
 } else
-{return one.browser.animation.acceleration.call(null,a__5817);
+{return one.browser.animation.acceleration.call(null,a__5017);
 }
 } else
 {return null;
@@ -368,59 +368,59 @@ this.__extmap=null;
 })
 one.browser.animation.Effect.prototype.one$browser$animation$IScroll$ = true;
 one.browser.animation.Effect.prototype.one$browser$animation$IScroll$scroll = (function (this$){
-var this__5820 = this;
+var this__5020 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.cljs$core$IHash$ = true;
 one.browser.animation.Effect.prototype.cljs$core$IHash$_hash = (function (this__1337__auto__){
-var this__5821 = this;
+var this__5021 = this;
 return cljs.core.hash_coll.call(null,this__1337__auto__);
 });
 one.browser.animation.Effect.prototype.cljs$core$ILookup$ = true;
 one.browser.animation.Effect.prototype.cljs$core$ILookup$_lookup = (function() {
-var G__5847 = null;
-var G__5847__5848 = (function (this__1342__auto__,k__1343__auto__){
-var this__5822 = this;
+var G__5047 = null;
+var G__5047__5048 = (function (this__1342__auto__,k__1343__auto__){
+var this__5022 = this;
 return cljs.core._lookup.call(null,this__1342__auto__,k__1343__auto__,null);
 });
-var G__5847__5849 = (function (this__1344__auto__,k__1345__auto__,else__1346__auto__){
-var this__5823 = this;
-return cljs.core.get.call(null,cljs.core.merge.call(null,cljs.core.hash_map.call(null,"﷐'effect",this__5823.effect,"﷐'start",this__5823.start,"﷐'end",this__5823.end,"﷐'time",this__5823.time,"﷐'accel",this__5823.accel),this__5823.__extmap),k__1345__auto__,else__1346__auto__);
+var G__5047__5049 = (function (this__1344__auto__,k__1345__auto__,else__1346__auto__){
+var this__5023 = this;
+return cljs.core.get.call(null,cljs.core.merge.call(null,cljs.core.hash_map.call(null,"﷐'effect",this__5023.effect,"﷐'start",this__5023.start,"﷐'end",this__5023.end,"﷐'time",this__5023.time,"﷐'accel",this__5023.accel),this__5023.__extmap),k__1345__auto__,else__1346__auto__);
 });
-G__5847 = function(this__1344__auto__,k__1345__auto__,else__1346__auto__){
+G__5047 = function(this__1344__auto__,k__1345__auto__,else__1346__auto__){
 switch(arguments.length){
 case  2 :
-return G__5847__5848.call(this,this__1344__auto__,k__1345__auto__);
+return G__5047__5048.call(this,this__1344__auto__,k__1345__auto__);
 case  3 :
-return G__5847__5849.call(this,this__1344__auto__,k__1345__auto__,else__1346__auto__);
+return G__5047__5049.call(this,this__1344__auto__,k__1345__auto__,else__1346__auto__);
 }
 throw('Invalid arity: ' + arguments.length);
 };
-return G__5847;
+return G__5047;
 })()
 ;
 one.browser.animation.Effect.prototype.cljs$core$IAssociative$ = true;
-one.browser.animation.Effect.prototype.cljs$core$IAssociative$_assoc = (function (this__1350__auto__,k__1351__auto__,G__5818){
-var this__5824 = this;
-var pred__5825__5828 = cljs.core.identical_QMARK_;
-var expr__5826__5829 = k__1351__auto__;
+one.browser.animation.Effect.prototype.cljs$core$IAssociative$_assoc = (function (this__1350__auto__,k__1351__auto__,G__5018){
+var this__5024 = this;
+var pred__5025__5028 = cljs.core.identical_QMARK_;
+var expr__5026__5029 = k__1351__auto__;
 
-if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'effect",expr__5826__5829)))
-{return (new one.browser.animation.Effect(G__5818,this__5824.start,this__5824.end,this__5824.time,this__5824.accel,this__5824.__meta,this__5824.__extmap));
+if(cljs.core.truth_(pred__5025__5028.call(null,"﷐'effect",expr__5026__5029)))
+{return (new one.browser.animation.Effect(G__5018,this__5024.start,this__5024.end,this__5024.time,this__5024.accel,this__5024.__meta,this__5024.__extmap));
 } else
-{if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'start",expr__5826__5829)))
-{return (new one.browser.animation.Effect(this__5824.effect,G__5818,this__5824.end,this__5824.time,this__5824.accel,this__5824.__meta,this__5824.__extmap));
+{if(cljs.core.truth_(pred__5025__5028.call(null,"﷐'start",expr__5026__5029)))
+{return (new one.browser.animation.Effect(this__5024.effect,G__5018,this__5024.end,this__5024.time,this__5024.accel,this__5024.__meta,this__5024.__extmap));
 } else
-{if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'end",expr__5826__5829)))
-{return (new one.browser.animation.Effect(this__5824.effect,this__5824.start,G__5818,this__5824.time,this__5824.accel,this__5824.__meta,this__5824.__extmap));
+{if(cljs.core.truth_(pred__5025__5028.call(null,"﷐'end",expr__5026__5029)))
+{return (new one.browser.animation.Effect(this__5024.effect,this__5024.start,G__5018,this__5024.time,this__5024.accel,this__5024.__meta,this__5024.__extmap));
 } else
-{if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'time",expr__5826__5829)))
-{return (new one.browser.animation.Effect(this__5824.effect,this__5824.start,this__5824.end,G__5818,this__5824.accel,this__5824.__meta,this__5824.__extmap));
+{if(cljs.core.truth_(pred__5025__5028.call(null,"﷐'time",expr__5026__5029)))
+{return (new one.browser.animation.Effect(this__5024.effect,this__5024.start,this__5024.end,G__5018,this__5024.accel,this__5024.__meta,this__5024.__extmap));
 } else
-{if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'accel",expr__5826__5829)))
-{return (new one.browser.animation.Effect(this__5824.effect,this__5824.start,this__5824.end,this__5824.time,G__5818,this__5824.__meta,this__5824.__extmap));
+{if(cljs.core.truth_(pred__5025__5028.call(null,"﷐'accel",expr__5026__5029)))
+{return (new one.browser.animation.Effect(this__5024.effect,this__5024.start,this__5024.end,this__5024.time,G__5018,this__5024.__meta,this__5024.__extmap));
 } else
-{return (new one.browser.animation.Effect(this__5824.effect,this__5824.start,this__5824.end,this__5824.time,this__5824.accel,this__5824.__meta,cljs.core.assoc.call(null,this__5824.__extmap,k__1351__auto__,G__5818)));
+{return (new one.browser.animation.Effect(this__5024.effect,this__5024.start,this__5024.end,this__5024.time,this__5024.accel,this__5024.__meta,cljs.core.assoc.call(null,this__5024.__extmap,k__1351__auto__,G__5018)));
 }
 }
 }
@@ -430,7 +430,7 @@ if(cljs.core.truth_(pred__5825__5828.call(null,"﷐'effect",expr__5826__5829)))
 one.browser.animation.Effect.prototype.cljs$core$IRecord$ = true;
 one.browser.animation.Effect.prototype.cljs$core$ICollection$ = true;
 one.browser.animation.Effect.prototype.cljs$core$ICollection$_conj = (function (this__1348__auto__,entry__1349__auto__){
-var this__5830 = this;
+var this__5030 = this;
 if(cljs.core.truth_(cljs.core.vector_QMARK_.call(null,entry__1349__auto__)))
 {return cljs.core._assoc.call(null,this__1348__auto__,cljs.core._nth.call(null,entry__1349__auto__,0),cljs.core._nth.call(null,entry__1349__auto__,1));
 } else
@@ -439,101 +439,101 @@ if(cljs.core.truth_(cljs.core.vector_QMARK_.call(null,entry__1349__auto__)))
 });
 one.browser.animation.Effect.prototype.one$browser$animation$IPosition$ = true;
 one.browser.animation.Effect.prototype.one$browser$animation$IPosition$position = (function (this$){
-var this__5831 = this;
+var this__5031 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.one$color$IColorSource$ = true;
 one.browser.animation.Effect.prototype.one$color$IColorSource$color = (function (this$){
-var this__5832 = this;
+var this__5032 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.one$color$IColorSource$bg_color = (function (this$){
-var this__5833 = this;
+var this__5033 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.cljs$core$ISeqable$ = true;
 one.browser.animation.Effect.prototype.cljs$core$ISeqable$_seq = (function (this__1355__auto__){
-var this__5834 = this;
-return cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core.Vector.fromArray([cljs.core.vector.call(null,"﷐'effect",this__5834.effect),cljs.core.vector.call(null,"﷐'start",this__5834.start),cljs.core.vector.call(null,"﷐'end",this__5834.end),cljs.core.vector.call(null,"﷐'time",this__5834.time),cljs.core.vector.call(null,"﷐'accel",this__5834.accel)]),this__5834.__extmap));
+var this__5034 = this;
+return cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core.Vector.fromArray([cljs.core.vector.call(null,"﷐'effect",this__5034.effect),cljs.core.vector.call(null,"﷐'start",this__5034.start),cljs.core.vector.call(null,"﷐'end",this__5034.end),cljs.core.vector.call(null,"﷐'time",this__5034.time),cljs.core.vector.call(null,"﷐'accel",this__5034.accel)]),this__5034.__extmap));
 });
 one.browser.animation.Effect.prototype.cljs$core$IPrintable$ = true;
 one.browser.animation.Effect.prototype.cljs$core$IPrintable$_pr_seq = (function (this__1357__auto__,opts__1358__auto__){
-var this__5835 = this;
-var pr_pair__1359__auto____5836 = (function (keyval__1360__auto__){
+var this__5035 = this;
+var pr_pair__1359__auto____5036 = (function (keyval__1360__auto__){
 return cljs.core.pr_sequential.call(null,cljs.core.pr_seq,""," ","",opts__1358__auto__,keyval__1360__auto__);
 });
 
-return cljs.core.pr_sequential.call(null,pr_pair__1359__auto____5836,cljs.core.str.call(null,"#","one.browser.animation.Effect","{"),", ","}",opts__1358__auto__,cljs.core.concat.call(null,cljs.core.Vector.fromArray([cljs.core.vector.call(null,"﷐'effect",this__5835.effect),cljs.core.vector.call(null,"﷐'start",this__5835.start),cljs.core.vector.call(null,"﷐'end",this__5835.end),cljs.core.vector.call(null,"﷐'time",this__5835.time),cljs.core.vector.call(null,"﷐'accel",this__5835.accel)]),this__5835.__extmap));
+return cljs.core.pr_sequential.call(null,pr_pair__1359__auto____5036,cljs.core.str.call(null,"#","one.browser.animation.Effect","{"),", ","}",opts__1358__auto__,cljs.core.concat.call(null,cljs.core.Vector.fromArray([cljs.core.vector.call(null,"﷐'effect",this__5035.effect),cljs.core.vector.call(null,"﷐'start",this__5035.start),cljs.core.vector.call(null,"﷐'end",this__5035.end),cljs.core.vector.call(null,"﷐'time",this__5035.time),cljs.core.vector.call(null,"﷐'accel",this__5035.accel)]),this__5035.__extmap));
 });
 one.browser.animation.Effect.prototype.cljs$core$ICounted$ = true;
 one.browser.animation.Effect.prototype.cljs$core$ICounted$_count = (function (this__1347__auto__){
-var this__5837 = this;
-return (5 + cljs.core.count.call(null,this__5837.__extmap));
+var this__5037 = this;
+return (5 + cljs.core.count.call(null,this__5037.__extmap));
 });
 one.browser.animation.Effect.prototype.cljs$core$IEquiv$ = true;
 one.browser.animation.Effect.prototype.cljs$core$IEquiv$_equiv = (function (this__1338__auto__,other__1339__auto__){
-var this__5838 = this;
-var and__3546__auto____5839 = (this__1338__auto__.constructor === other__1339__auto__.constructor);
+var this__5038 = this;
+var and__3546__auto____5039 = (this__1338__auto__.constructor === other__1339__auto__.constructor);
 
-if(cljs.core.truth_(and__3546__auto____5839))
+if(cljs.core.truth_(and__3546__auto____5039))
 {return cljs.core.equiv_map.call(null,this__1338__auto__,other__1339__auto__);
 } else
-{return and__3546__auto____5839;
+{return and__3546__auto____5039;
 }
 });
 one.browser.animation.Effect.prototype.one$browser$animation$ISize$ = true;
 one.browser.animation.Effect.prototype.one$browser$animation$ISize$size = (function (this$){
-var this__5840 = this;
+var this__5040 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.one$browser$animation$ISize$width = (function (this$){
-var this__5841 = this;
+var this__5041 = this;
 return one.browser.animation.width.call(null,"﷐'end".call(null,this$));
 });
 one.browser.animation.Effect.prototype.one$browser$animation$ISize$height = (function (this$){
-var this__5842 = this;
+var this__5042 = this;
 return one.browser.animation.height.call(null,"﷐'end".call(null,this$));
 });
 one.browser.animation.Effect.prototype.cljs$core$IWithMeta$ = true;
-one.browser.animation.Effect.prototype.cljs$core$IWithMeta$_with_meta = (function (this__1341__auto__,G__5818){
-var this__5843 = this;
-return (new one.browser.animation.Effect(this__5843.effect,this__5843.start,this__5843.end,this__5843.time,this__5843.accel,G__5818,this__5843.__extmap));
+one.browser.animation.Effect.prototype.cljs$core$IWithMeta$_with_meta = (function (this__1341__auto__,G__5018){
+var this__5043 = this;
+return (new one.browser.animation.Effect(this__5043.effect,this__5043.start,this__5043.end,this__5043.time,this__5043.accel,G__5018,this__5043.__extmap));
 });
 one.browser.animation.Effect.prototype.cljs$core$IMeta$ = true;
 one.browser.animation.Effect.prototype.cljs$core$IMeta$_meta = (function (this__1340__auto__){
-var this__5844 = this;
-return this__5844.__meta;
+var this__5044 = this;
+return this__5044.__meta;
 });
 one.browser.animation.Effect.prototype.one$browser$animation$IOpacity$ = true;
 one.browser.animation.Effect.prototype.one$browser$animation$IOpacity$opacity = (function (this$){
-var this__5846 = this;
+var this__5046 = this;
 return "﷐'end".call(null,this$);
 });
 one.browser.animation.Effect.prototype.cljs$core$IMap$ = true;
 one.browser.animation.Effect.prototype.cljs$core$IMap$_dissoc = (function (this__1352__auto__,k__1353__auto__){
-var this__5845 = this;
+var this__5045 = this;
 if(cljs.core.truth_(cljs.core.contains_QMARK_.call(null,cljs.core.set(["﷐'effect","﷐'start","﷐'end","﷐'accel","﷐'time"]),k__1353__auto__)))
-{return cljs.core.dissoc.call(null,cljs.core.with_meta.call(null,cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),this__1352__auto__),this__5845.__meta),k__1353__auto__);
+{return cljs.core.dissoc.call(null,cljs.core.with_meta.call(null,cljs.core.into.call(null,cljs.core.ObjMap.fromObject([],{}),this__1352__auto__),this__5045.__meta),k__1353__auto__);
 } else
-{return (new one.browser.animation.Effect(this__5845.effect,this__5845.start,this__5845.end,this__5845.time,this__5845.accel,this__5845.__meta,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,this__5845.__extmap,k__1353__auto__))));
+{return (new one.browser.animation.Effect(this__5045.effect,this__5045.start,this__5045.end,this__5045.time,this__5045.accel,this__5045.__meta,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,this__5045.__extmap,k__1353__auto__))));
 }
 });
 one.browser.animation.__GT_Effect = (function __GT_Effect(effect,start,end,time,accel){
 return (new one.browser.animation.Effect(effect,start,end,time,accel));
 });
-one.browser.animation.map__GT_Effect = (function map__GT_Effect(G__5819){
-return (new one.browser.animation.Effect("﷐'effect".call(null,G__5819),"﷐'start".call(null,G__5819),"﷐'end".call(null,G__5819),"﷐'time".call(null,G__5819),"﷐'accel".call(null,G__5819),null,cljs.core.dissoc.call(null,G__5819,"﷐'effect","﷐'start","﷐'end","﷐'time","﷐'accel")));
+one.browser.animation.map__GT_Effect = (function map__GT_Effect(G__5019){
+return (new one.browser.animation.Effect("﷐'effect".call(null,G__5019),"﷐'start".call(null,G__5019),"﷐'end".call(null,G__5019),"﷐'time".call(null,G__5019),"﷐'accel".call(null,G__5019),null,cljs.core.dissoc.call(null,G__5019,"﷐'effect","﷐'start","﷐'end","﷐'time","﷐'accel")));
 });
 /**
 * Dispatch function for effect multimethods. Accepts an element and a
 * map describing an effect and returns the effect name as a keyword.
 */
-one.browser.animation.effect_dispatch = (function effect_dispatch(_,p__5851){
-var map__5852__5853 = p__5851;
-var map__5852__5854 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5852__5853))?cljs.core.apply.call(null,cljs.core.hash_map,map__5852__5853):map__5852__5853);
-var effect__5855 = cljs.core.get.call(null,map__5852__5854,"﷐'effect");
+one.browser.animation.effect_dispatch = (function effect_dispatch(_,p__5051){
+var map__5052__5053 = p__5051;
+var map__5052__5054 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5052__5053))?cljs.core.apply.call(null,cljs.core.hash_map,map__5052__5053):map__5052__5053);
+var effect__5055 = cljs.core.get.call(null,map__5052__5054,"﷐'effect");
 
-return effect__5855;
+return effect__5055;
 });
 /**
 * Accepts an element and an effect map and returns a standardized
@@ -543,33 +543,33 @@ return effect__5855;
 * The element argument can either be an HTML element or an effect map
 * which describes the previous effect.
 */
-one.browser.animation.standardize = (function (){var method_table__1524__auto____5856 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var prefer_table__1525__auto____5857 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var method_cache__1526__auto____5858 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var cached_hierarchy__1527__auto____5859 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var hierarchy__1528__auto____5860 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
+one.browser.animation.standardize = (function (){var method_table__1524__auto____5056 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var prefer_table__1525__auto____5057 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var method_cache__1526__auto____5058 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var cached_hierarchy__1527__auto____5059 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var hierarchy__1528__auto____5060 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
 
-return (new cljs.core.MultiFn("standardize",one.browser.animation.effect_dispatch,"﷐'default",hierarchy__1528__auto____5860,method_table__1524__auto____5856,prefer_table__1525__auto____5857,method_cache__1526__auto____5858,cached_hierarchy__1527__auto____5859));
+return (new cljs.core.MultiFn("standardize",one.browser.animation.effect_dispatch,"﷐'default",hierarchy__1528__auto____5060,method_table__1524__auto____5056,prefer_table__1525__auto____5057,method_cache__1526__auto____5058,cached_hierarchy__1527__auto____5059));
 })();
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'color",(function (element,m){
-return (new one.browser.animation.Effect("﷐'color",one.color.color.call(null,(function (){var or__3548__auto____5861 = "﷐'start".call(null,m);
+return (new one.browser.animation.Effect("﷐'color",one.color.color.call(null,(function (){var or__3548__auto____5061 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5861))
-{return or__3548__auto____5861;
+if(cljs.core.truth_(or__3548__auto____5061))
+{return or__3548__auto____5061;
 } else
 {return element;
 }
-})()),one.color.color.call(null,(function (){var or__3548__auto____5862 = "﷐'end".call(null,m);
+})()),one.color.color.call(null,(function (){var or__3548__auto____5062 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5862))
-{return or__3548__auto____5862;
+if(cljs.core.truth_(or__3548__auto____5062))
+{return or__3548__auto____5062;
 } else
 {return element;
 }
-})()),(function (){var or__3548__auto____5863 = "﷐'time".call(null,m);
+})()),(function (){var or__3548__auto____5063 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5863))
-{return or__3548__auto____5863;
+if(cljs.core.truth_(or__3548__auto____5063))
+{return or__3548__auto____5063;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
@@ -583,418 +583,418 @@ if(cljs.core.truth_(or__3548__auto____5863))
 * `:fade-in-and-show`, `:fade-out-and-hide`, `:slide`, `:swipe`, `:bg-color`,
 * `:resize`, `:resize-width` and `:resize-height`.
 */
-one.browser.animation.effect = (function (){var method_table__1524__auto____5864 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var prefer_table__1525__auto____5865 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var method_cache__1526__auto____5866 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var cached_hierarchy__1527__auto____5867 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var hierarchy__1528__auto____5868 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
+one.browser.animation.effect = (function (){var method_table__1524__auto____5064 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var prefer_table__1525__auto____5065 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var method_cache__1526__auto____5066 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var cached_hierarchy__1527__auto____5067 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var hierarchy__1528__auto____5068 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
 
-return (new cljs.core.MultiFn("effect",one.browser.animation.effect_dispatch,"﷐'default",hierarchy__1528__auto____5868,method_table__1524__auto____5864,prefer_table__1525__auto____5865,method_cache__1526__auto____5866,cached_hierarchy__1527__auto____5867));
+return (new cljs.core.MultiFn("effect",one.browser.animation.effect_dispatch,"﷐'default",hierarchy__1528__auto____5068,method_table__1524__auto____5064,prefer_table__1525__auto____5065,method_cache__1526__auto____5066,cached_hierarchy__1527__auto____5067));
 })();
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'color",(function (element,m){
-var map__5869__5870 = one.browser.animation.standardize.call(null,element,m);
-var map__5869__5871 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5869__5870))?cljs.core.apply.call(null,cljs.core.hash_map,map__5869__5870):map__5869__5870);
-var accel__5872 = cljs.core.get.call(null,map__5869__5871,"﷐'accel");
-var time__5873 = cljs.core.get.call(null,map__5869__5871,"﷐'time");
-var end__5874 = cljs.core.get.call(null,map__5869__5871,"﷐'end");
-var start__5875 = cljs.core.get.call(null,map__5869__5871,"﷐'start");
+var map__5069__5070 = one.browser.animation.standardize.call(null,element,m);
+var map__5069__5071 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5069__5070))?cljs.core.apply.call(null,cljs.core.hash_map,map__5069__5070):map__5069__5070);
+var accel__5072 = cljs.core.get.call(null,map__5069__5071,"﷐'accel");
+var time__5073 = cljs.core.get.call(null,map__5069__5071,"﷐'time");
+var end__5074 = cljs.core.get.call(null,map__5069__5071,"﷐'end");
+var start__5075 = cljs.core.get.call(null,map__5069__5071,"﷐'start");
 
-return (new goog.fx.dom.ColorTransform(element,cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,start__5875)),cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,end__5874)),time__5873,accel__5872));
+return (new goog.fx.dom.ColorTransform(element,cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,start__5075)),cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,end__5074)),time__5073,accel__5072));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'fade",(function (element,m){
-return (new one.browser.animation.Effect("﷐'fade",one.browser.animation.opacity.call(null,(function (){var or__3548__auto____5876 = "﷐'start".call(null,m);
+return (new one.browser.animation.Effect("﷐'fade",one.browser.animation.opacity.call(null,(function (){var or__3548__auto____5076 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5876))
-{return or__3548__auto____5876;
+if(cljs.core.truth_(or__3548__auto____5076))
+{return or__3548__auto____5076;
 } else
 {return element;
 }
-})()),one.browser.animation.opacity.call(null,"﷐'end".call(null,m)),(function (){var or__3548__auto____5877 = "﷐'time".call(null,m);
+})()),one.browser.animation.opacity.call(null,"﷐'end".call(null,m)),(function (){var or__3548__auto____5077 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5877))
-{return or__3548__auto____5877;
+if(cljs.core.truth_(or__3548__auto____5077))
+{return or__3548__auto____5077;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'fade",(function (element,m){
-var map__5878__5879 = one.browser.animation.standardize.call(null,element,m);
-var map__5878__5880 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5878__5879))?cljs.core.apply.call(null,cljs.core.hash_map,map__5878__5879):map__5878__5879);
-var accel__5881 = cljs.core.get.call(null,map__5878__5880,"﷐'accel");
-var time__5882 = cljs.core.get.call(null,map__5878__5880,"﷐'time");
-var end__5883 = cljs.core.get.call(null,map__5878__5880,"﷐'end");
-var start__5884 = cljs.core.get.call(null,map__5878__5880,"﷐'start");
+var map__5078__5079 = one.browser.animation.standardize.call(null,element,m);
+var map__5078__5080 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5078__5079))?cljs.core.apply.call(null,cljs.core.hash_map,map__5078__5079):map__5078__5079);
+var accel__5081 = cljs.core.get.call(null,map__5078__5080,"﷐'accel");
+var time__5082 = cljs.core.get.call(null,map__5078__5080,"﷐'time");
+var end__5083 = cljs.core.get.call(null,map__5078__5080,"﷐'end");
+var start__5084 = cljs.core.get.call(null,map__5078__5080,"﷐'start");
 
-return (new goog.fx.dom.Fade(element,start__5884,end__5883,time__5882,accel__5881));
+return (new goog.fx.dom.Fade(element,start__5084,end__5083,time__5082,accel__5081));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'fade-in",(function (element,m){
-return (new one.browser.animation.Effect("﷐'fade-in",0,1,(function (){var or__3548__auto____5885 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'fade-in",0,1,(function (){var or__3548__auto____5085 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5885))
-{return or__3548__auto____5885;
+if(cljs.core.truth_(or__3548__auto____5085))
+{return or__3548__auto____5085;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'fade-in",(function (element,m){
-var map__5886__5887 = one.browser.animation.standardize.call(null,element,m);
-var map__5886__5888 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5886__5887))?cljs.core.apply.call(null,cljs.core.hash_map,map__5886__5887):map__5886__5887);
-var accel__5889 = cljs.core.get.call(null,map__5886__5888,"﷐'accel");
-var time__5890 = cljs.core.get.call(null,map__5886__5888,"﷐'time");
+var map__5086__5087 = one.browser.animation.standardize.call(null,element,m);
+var map__5086__5088 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5086__5087))?cljs.core.apply.call(null,cljs.core.hash_map,map__5086__5087):map__5086__5087);
+var accel__5089 = cljs.core.get.call(null,map__5086__5088,"﷐'accel");
+var time__5090 = cljs.core.get.call(null,map__5086__5088,"﷐'time");
 
-return (new goog.fx.dom.FadeIn(element,time__5890,accel__5889));
+return (new goog.fx.dom.FadeIn(element,time__5090,accel__5089));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'fade-out",(function (element,m){
-return (new one.browser.animation.Effect("﷐'fade-out",1,0,(function (){var or__3548__auto____5891 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'fade-out",1,0,(function (){var or__3548__auto____5091 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5891))
-{return or__3548__auto____5891;
+if(cljs.core.truth_(or__3548__auto____5091))
+{return or__3548__auto____5091;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'fade-out",(function (element,m){
-var map__5892__5893 = one.browser.animation.standardize.call(null,element,m);
-var map__5892__5894 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5892__5893))?cljs.core.apply.call(null,cljs.core.hash_map,map__5892__5893):map__5892__5893);
-var accel__5895 = cljs.core.get.call(null,map__5892__5894,"﷐'accel");
-var time__5896 = cljs.core.get.call(null,map__5892__5894,"﷐'time");
+var map__5092__5093 = one.browser.animation.standardize.call(null,element,m);
+var map__5092__5094 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5092__5093))?cljs.core.apply.call(null,cljs.core.hash_map,map__5092__5093):map__5092__5093);
+var accel__5095 = cljs.core.get.call(null,map__5092__5094,"﷐'accel");
+var time__5096 = cljs.core.get.call(null,map__5092__5094,"﷐'time");
 
-return (new goog.fx.dom.FadeOut(element,time__5896,accel__5895));
+return (new goog.fx.dom.FadeOut(element,time__5096,accel__5095));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'fade-in-and-show",(function (element,m){
-return (new one.browser.animation.Effect("﷐'fade-in-and-show",0,1,(function (){var or__3548__auto____5897 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'fade-in-and-show",0,1,(function (){var or__3548__auto____5097 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5897))
-{return or__3548__auto____5897;
+if(cljs.core.truth_(or__3548__auto____5097))
+{return or__3548__auto____5097;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'fade-in-and-show",(function (element,m){
-var map__5898__5899 = one.browser.animation.standardize.call(null,element,m);
-var map__5898__5900 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5898__5899))?cljs.core.apply.call(null,cljs.core.hash_map,map__5898__5899):map__5898__5899);
-var accel__5901 = cljs.core.get.call(null,map__5898__5900,"﷐'accel");
-var time__5902 = cljs.core.get.call(null,map__5898__5900,"﷐'time");
+var map__5098__5099 = one.browser.animation.standardize.call(null,element,m);
+var map__5098__5100 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5098__5099))?cljs.core.apply.call(null,cljs.core.hash_map,map__5098__5099):map__5098__5099);
+var accel__5101 = cljs.core.get.call(null,map__5098__5100,"﷐'accel");
+var time__5102 = cljs.core.get.call(null,map__5098__5100,"﷐'time");
 
-return (new goog.fx.dom.FadeInAndShow(element,time__5902,accel__5901));
+return (new goog.fx.dom.FadeInAndShow(element,time__5102,accel__5101));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'fade-out-and-hide",(function (element,m){
-return (new one.browser.animation.Effect("﷐'fade-out-and-hide",1,0,(function (){var or__3548__auto____5903 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'fade-out-and-hide",1,0,(function (){var or__3548__auto____5103 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5903))
-{return or__3548__auto____5903;
+if(cljs.core.truth_(or__3548__auto____5103))
+{return or__3548__auto____5103;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'fade-out-and-hide",(function (element,m){
-var map__5905__5906 = one.browser.animation.standardize.call(null,element,m);
-var map__5905__5907 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5905__5906))?cljs.core.apply.call(null,cljs.core.hash_map,map__5905__5906):map__5905__5906);
-var accel__5908 = cljs.core.get.call(null,map__5905__5907,"﷐'accel");
-var time__5909 = cljs.core.get.call(null,map__5905__5907,"﷐'time");
+var map__5105__5106 = one.browser.animation.standardize.call(null,element,m);
+var map__5105__5107 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5105__5106))?cljs.core.apply.call(null,cljs.core.hash_map,map__5105__5106):map__5105__5106);
+var accel__5108 = cljs.core.get.call(null,map__5105__5107,"﷐'accel");
+var time__5109 = cljs.core.get.call(null,map__5105__5107,"﷐'time");
 
-return (new goog.fx.dom.FadeOutAndHide(element,time__5909,accel__5908));
+return (new goog.fx.dom.FadeOutAndHide(element,time__5109,accel__5108));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'bg-color",(function (element,m){
-var start__5911 = (function (){var or__3548__auto____5910 = "﷐'start".call(null,m);
+var start__5111 = (function (){var or__3548__auto____5110 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5910))
-{return or__3548__auto____5910;
+if(cljs.core.truth_(or__3548__auto____5110))
+{return or__3548__auto____5110;
 } else
 {return element;
 }
 })();
-var end__5913 = (function (){var or__3548__auto____5912 = "﷐'end".call(null,m);
+var end__5113 = (function (){var or__3548__auto____5112 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5912))
-{return or__3548__auto____5912;
+if(cljs.core.truth_(or__3548__auto____5112))
+{return or__3548__auto____5112;
 } else
 {return element;
 }
 })();
 
-return (new one.browser.animation.Effect("﷐'bg-color",one.color.bg_color.call(null,start__5911),one.color.bg_color.call(null,end__5913),(function (){var or__3548__auto____5914 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'bg-color",one.color.bg_color.call(null,start__5111),one.color.bg_color.call(null,end__5113),(function (){var or__3548__auto____5114 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5914))
-{return or__3548__auto____5914;
+if(cljs.core.truth_(or__3548__auto____5114))
+{return or__3548__auto____5114;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'bg-color",(function (element,m){
-var map__5915__5916 = one.browser.animation.standardize.call(null,element,m);
-var map__5915__5917 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5915__5916))?cljs.core.apply.call(null,cljs.core.hash_map,map__5915__5916):map__5915__5916);
-var accel__5918 = cljs.core.get.call(null,map__5915__5917,"﷐'accel");
-var time__5919 = cljs.core.get.call(null,map__5915__5917,"﷐'time");
-var end__5920 = cljs.core.get.call(null,map__5915__5917,"﷐'end");
-var start__5921 = cljs.core.get.call(null,map__5915__5917,"﷐'start");
+var map__5115__5116 = one.browser.animation.standardize.call(null,element,m);
+var map__5115__5117 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5115__5116))?cljs.core.apply.call(null,cljs.core.hash_map,map__5115__5116):map__5115__5116);
+var accel__5118 = cljs.core.get.call(null,map__5115__5117,"﷐'accel");
+var time__5119 = cljs.core.get.call(null,map__5115__5117,"﷐'time");
+var end__5120 = cljs.core.get.call(null,map__5115__5117,"﷐'end");
+var start__5121 = cljs.core.get.call(null,map__5115__5117,"﷐'start");
 
-return (new goog.fx.dom.BgColorTransform(element,cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,start__5921)),cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,end__5920)),time__5919,accel__5918));
+return (new goog.fx.dom.BgColorTransform(element,cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,start__5121)),cljs.core.apply.call(null,cljs.core.array,one.color.rgb.call(null,end__5120)),time__5119,accel__5118));
 }));
 /**
 * Calculate the end of a slide based on the start value and the
 * passed `:left`, `:right`, `:up` and `:down` values.
 */
-one.browser.animation.calculate_slide_end = (function calculate_slide_end(p__5922,m){
-var vec__5923__5924 = p__5922;
-var x__5925 = cljs.core.nth.call(null,vec__5923__5924,0,null);
-var y__5926 = cljs.core.nth.call(null,vec__5923__5924,1,null);
+one.browser.animation.calculate_slide_end = (function calculate_slide_end(p__5122,m){
+var vec__5123__5124 = p__5122;
+var x__5125 = cljs.core.nth.call(null,vec__5123__5124,0,null);
+var y__5126 = cljs.core.nth.call(null,vec__5123__5124,1,null);
 
-return cljs.core.vector.call(null,((x__5925 - "﷐'left".call(null,m,0)) + "﷐'right".call(null,m,0)),((y__5926 - "﷐'up".call(null,m,0)) + "﷐'down".call(null,m,0)));
+return cljs.core.vector.call(null,((x__5125 - "﷐'left".call(null,m,0)) + "﷐'right".call(null,m,0)),((y__5126 - "﷐'up".call(null,m,0)) + "﷐'down".call(null,m,0)));
 });
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'slide",(function (element,m){
-var start__5928 = one.browser.animation.position.call(null,(function (){var or__3548__auto____5927 = "﷐'start".call(null,m);
+var start__5128 = one.browser.animation.position.call(null,(function (){var or__3548__auto____5127 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5927))
-{return or__3548__auto____5927;
+if(cljs.core.truth_(or__3548__auto____5127))
+{return or__3548__auto____5127;
 } else
 {return element;
 }
 })());
-var end__5930 = (function (){var or__3548__auto____5929 = "﷐'end".call(null,m);
+var end__5130 = (function (){var or__3548__auto____5129 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5929))
-{return or__3548__auto____5929;
+if(cljs.core.truth_(or__3548__auto____5129))
+{return or__3548__auto____5129;
 } else
-{return one.browser.animation.calculate_slide_end.call(null,start__5928,m);
+{return one.browser.animation.calculate_slide_end.call(null,start__5128,m);
 }
 })();
 
-return (new one.browser.animation.Effect("﷐'slide",start__5928,end__5930,(function (){var or__3548__auto____5931 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'slide",start__5128,end__5130,(function (){var or__3548__auto____5131 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5931))
-{return or__3548__auto____5931;
+if(cljs.core.truth_(or__3548__auto____5131))
+{return or__3548__auto____5131;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'slide",(function (element,m){
-var map__5932__5933 = one.browser.animation.standardize.call(null,element,m);
-var map__5932__5934 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5932__5933))?cljs.core.apply.call(null,cljs.core.hash_map,map__5932__5933):map__5932__5933);
-var accel__5935 = cljs.core.get.call(null,map__5932__5934,"﷐'accel");
-var time__5936 = cljs.core.get.call(null,map__5932__5934,"﷐'time");
-var end__5937 = cljs.core.get.call(null,map__5932__5934,"﷐'end");
-var start__5938 = cljs.core.get.call(null,map__5932__5934,"﷐'start");
+var map__5132__5133 = one.browser.animation.standardize.call(null,element,m);
+var map__5132__5134 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5132__5133))?cljs.core.apply.call(null,cljs.core.hash_map,map__5132__5133):map__5132__5133);
+var accel__5135 = cljs.core.get.call(null,map__5132__5134,"﷐'accel");
+var time__5136 = cljs.core.get.call(null,map__5132__5134,"﷐'time");
+var end__5137 = cljs.core.get.call(null,map__5132__5134,"﷐'end");
+var start__5138 = cljs.core.get.call(null,map__5132__5134,"﷐'start");
 
-return (new goog.fx.dom.Slide(element,cljs.core.apply.call(null,cljs.core.array,start__5938),cljs.core.apply.call(null,cljs.core.array,end__5937),time__5936,accel__5935));
+return (new goog.fx.dom.Slide(element,cljs.core.apply.call(null,cljs.core.array,start__5138),cljs.core.apply.call(null,cljs.core.array,end__5137),time__5136,accel__5135));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'resize-height",(function (element,m){
-var start__5941 = (function (){var temp__3698__auto____5939 = "﷐'start".call(null,m);
+var start__5141 = (function (){var temp__3698__auto____5139 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(temp__3698__auto____5939))
-{var h__5940 = temp__3698__auto____5939;
+if(cljs.core.truth_(temp__3698__auto____5139))
+{var h__5140 = temp__3698__auto____5139;
 
-return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,element),one.browser.animation.height.call(null,h__5940)]);
+return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,element),one.browser.animation.height.call(null,h__5140)]);
 } else
 {return null;
 }
 })();
-var end__5944 = (function (){var temp__3698__auto____5942 = "﷐'end".call(null,m);
+var end__5144 = (function (){var temp__3698__auto____5142 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(temp__3698__auto____5942))
-{var h__5943 = temp__3698__auto____5942;
+if(cljs.core.truth_(temp__3698__auto____5142))
+{var h__5143 = temp__3698__auto____5142;
 
-return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,element),one.browser.animation.height.call(null,h__5943)]);
+return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,element),one.browser.animation.height.call(null,h__5143)]);
 } else
 {return null;
 }
 })();
 
-return (new one.browser.animation.Effect("﷐'resize-height",one.browser.animation.size.call(null,(function (){var or__3548__auto____5945 = start__5941;
+return (new one.browser.animation.Effect("﷐'resize-height",one.browser.animation.size.call(null,(function (){var or__3548__auto____5145 = start__5141;
 
-if(cljs.core.truth_(or__3548__auto____5945))
-{return or__3548__auto____5945;
+if(cljs.core.truth_(or__3548__auto____5145))
+{return or__3548__auto____5145;
 } else
 {return element;
 }
-})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5946 = end__5944;
+})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5146 = end__5144;
 
-if(cljs.core.truth_(or__3548__auto____5946))
-{return or__3548__auto____5946;
+if(cljs.core.truth_(or__3548__auto____5146))
+{return or__3548__auto____5146;
 } else
 {return element;
 }
-})()),(function (){var or__3548__auto____5947 = "﷐'time".call(null,m);
+})()),(function (){var or__3548__auto____5147 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5947))
-{return or__3548__auto____5947;
+if(cljs.core.truth_(or__3548__auto____5147))
+{return or__3548__auto____5147;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'resize-height",(function (element,m){
-var map__5948__5949 = one.browser.animation.standardize.call(null,element,m);
-var map__5948__5950 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5948__5949))?cljs.core.apply.call(null,cljs.core.hash_map,map__5948__5949):map__5948__5949);
-var accel__5951 = cljs.core.get.call(null,map__5948__5950,"﷐'accel");
-var time__5952 = cljs.core.get.call(null,map__5948__5950,"﷐'time");
-var end__5953 = cljs.core.get.call(null,map__5948__5950,"﷐'end");
-var start__5954 = cljs.core.get.call(null,map__5948__5950,"﷐'start");
+var map__5148__5149 = one.browser.animation.standardize.call(null,element,m);
+var map__5148__5150 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5148__5149))?cljs.core.apply.call(null,cljs.core.hash_map,map__5148__5149):map__5148__5149);
+var accel__5151 = cljs.core.get.call(null,map__5148__5150,"﷐'accel");
+var time__5152 = cljs.core.get.call(null,map__5148__5150,"﷐'time");
+var end__5153 = cljs.core.get.call(null,map__5148__5150,"﷐'end");
+var start__5154 = cljs.core.get.call(null,map__5148__5150,"﷐'start");
 
-return (new goog.fx.dom.ResizeHeight(element,one.browser.animation.height.call(null,start__5954),one.browser.animation.height.call(null,end__5953),time__5952,accel__5951));
+return (new goog.fx.dom.ResizeHeight(element,one.browser.animation.height.call(null,start__5154),one.browser.animation.height.call(null,end__5153),time__5152,accel__5151));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'resize-width",(function (element,m){
-var start__5957 = (function (){var temp__3698__auto____5955 = "﷐'start".call(null,m);
+var start__5157 = (function (){var temp__3698__auto____5155 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(temp__3698__auto____5955))
-{var w__5956 = temp__3698__auto____5955;
+if(cljs.core.truth_(temp__3698__auto____5155))
+{var w__5156 = temp__3698__auto____5155;
 
-return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,w__5956),one.browser.animation.height.call(null,element)]);
+return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,w__5156),one.browser.animation.height.call(null,element)]);
 } else
 {return null;
 }
 })();
-var end__5960 = (function (){var temp__3698__auto____5958 = "﷐'end".call(null,m);
+var end__5160 = (function (){var temp__3698__auto____5158 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(temp__3698__auto____5958))
-{var w__5959 = temp__3698__auto____5958;
+if(cljs.core.truth_(temp__3698__auto____5158))
+{var w__5159 = temp__3698__auto____5158;
 
-return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,w__5959),one.browser.animation.height.call(null,element)]);
+return cljs.core.Vector.fromArray([one.browser.animation.width.call(null,w__5159),one.browser.animation.height.call(null,element)]);
 } else
 {return null;
 }
 })();
 
-return (new one.browser.animation.Effect("﷐'resize-width",one.browser.animation.size.call(null,(function (){var or__3548__auto____5961 = start__5957;
+return (new one.browser.animation.Effect("﷐'resize-width",one.browser.animation.size.call(null,(function (){var or__3548__auto____5161 = start__5157;
 
-if(cljs.core.truth_(or__3548__auto____5961))
-{return or__3548__auto____5961;
+if(cljs.core.truth_(or__3548__auto____5161))
+{return or__3548__auto____5161;
 } else
 {return element;
 }
-})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5962 = end__5960;
+})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5162 = end__5160;
 
-if(cljs.core.truth_(or__3548__auto____5962))
-{return or__3548__auto____5962;
+if(cljs.core.truth_(or__3548__auto____5162))
+{return or__3548__auto____5162;
 } else
 {return element;
 }
-})()),(function (){var or__3548__auto____5963 = "﷐'time".call(null,m);
+})()),(function (){var or__3548__auto____5163 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5963))
-{return or__3548__auto____5963;
+if(cljs.core.truth_(or__3548__auto____5163))
+{return or__3548__auto____5163;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'resize-width",(function (element,m){
-var map__5964__5965 = one.browser.animation.standardize.call(null,element,m);
-var map__5964__5966 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5964__5965))?cljs.core.apply.call(null,cljs.core.hash_map,map__5964__5965):map__5964__5965);
-var accel__5967 = cljs.core.get.call(null,map__5964__5966,"﷐'accel");
-var time__5968 = cljs.core.get.call(null,map__5964__5966,"﷐'time");
-var end__5969 = cljs.core.get.call(null,map__5964__5966,"﷐'end");
-var start__5970 = cljs.core.get.call(null,map__5964__5966,"﷐'start");
+var map__5164__5165 = one.browser.animation.standardize.call(null,element,m);
+var map__5164__5166 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5164__5165))?cljs.core.apply.call(null,cljs.core.hash_map,map__5164__5165):map__5164__5165);
+var accel__5167 = cljs.core.get.call(null,map__5164__5166,"﷐'accel");
+var time__5168 = cljs.core.get.call(null,map__5164__5166,"﷐'time");
+var end__5169 = cljs.core.get.call(null,map__5164__5166,"﷐'end");
+var start__5170 = cljs.core.get.call(null,map__5164__5166,"﷐'start");
 
-return (new goog.fx.dom.ResizeWidth(element,one.browser.animation.width.call(null,start__5970),one.browser.animation.width.call(null,end__5969),time__5968,accel__5967));
+return (new goog.fx.dom.ResizeWidth(element,one.browser.animation.width.call(null,start__5170),one.browser.animation.width.call(null,end__5169),time__5168,accel__5167));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'resize",(function (element,m){
-return (new one.browser.animation.Effect("﷐'resize",one.browser.animation.size.call(null,(function (){var or__3548__auto____5971 = "﷐'start".call(null,m);
+return (new one.browser.animation.Effect("﷐'resize",one.browser.animation.size.call(null,(function (){var or__3548__auto____5171 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5971))
-{return or__3548__auto____5971;
+if(cljs.core.truth_(or__3548__auto____5171))
+{return or__3548__auto____5171;
 } else
 {return element;
 }
-})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5972 = "﷐'end".call(null,m);
+})()),one.browser.animation.size.call(null,(function (){var or__3548__auto____5172 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5972))
-{return or__3548__auto____5972;
+if(cljs.core.truth_(or__3548__auto____5172))
+{return or__3548__auto____5172;
 } else
 {return element;
 }
-})()),(function (){var or__3548__auto____5973 = "﷐'time".call(null,m);
+})()),(function (){var or__3548__auto____5173 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5973))
-{return or__3548__auto____5973;
+if(cljs.core.truth_(or__3548__auto____5173))
+{return or__3548__auto____5173;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'resize",(function (element,m){
-var map__5974__5975 = one.browser.animation.standardize.call(null,element,m);
-var map__5974__5976 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5974__5975))?cljs.core.apply.call(null,cljs.core.hash_map,map__5974__5975):map__5974__5975);
-var accel__5977 = cljs.core.get.call(null,map__5974__5976,"﷐'accel");
-var time__5978 = cljs.core.get.call(null,map__5974__5976,"﷐'time");
-var end__5979 = cljs.core.get.call(null,map__5974__5976,"﷐'end");
-var start__5980 = cljs.core.get.call(null,map__5974__5976,"﷐'start");
+var map__5174__5175 = one.browser.animation.standardize.call(null,element,m);
+var map__5174__5176 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5174__5175))?cljs.core.apply.call(null,cljs.core.hash_map,map__5174__5175):map__5174__5175);
+var accel__5177 = cljs.core.get.call(null,map__5174__5176,"﷐'accel");
+var time__5178 = cljs.core.get.call(null,map__5174__5176,"﷐'time");
+var end__5179 = cljs.core.get.call(null,map__5174__5176,"﷐'end");
+var start__5180 = cljs.core.get.call(null,map__5174__5176,"﷐'start");
 
-return (new goog.fx.dom.Resize(element,cljs.core.apply.call(null,cljs.core.array,start__5980),cljs.core.apply.call(null,cljs.core.array,end__5979),time__5978,accel__5977));
+return (new goog.fx.dom.Resize(element,cljs.core.apply.call(null,cljs.core.array,start__5180),cljs.core.apply.call(null,cljs.core.array,end__5179),time__5178,accel__5177));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'scroll",(function (element,m){
-var start__5982 = (function (){var or__3548__auto____5981 = "﷐'start".call(null,m);
+var start__5182 = (function (){var or__3548__auto____5181 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5981))
-{return or__3548__auto____5981;
+if(cljs.core.truth_(or__3548__auto____5181))
+{return or__3548__auto____5181;
 } else
 {return element;
 }
 })();
-var end__5983 = "﷐'end".call(null,m);
+var end__5183 = "﷐'end".call(null,m);
 
-return (new one.browser.animation.Effect("﷐'scroll",one.browser.animation.scroll.call(null,start__5982),one.browser.animation.scroll.call(null,end__5983),(function (){var or__3548__auto____5984 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'scroll",one.browser.animation.scroll.call(null,start__5182),one.browser.animation.scroll.call(null,end__5183),(function (){var or__3548__auto____5184 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5984))
-{return or__3548__auto____5984;
+if(cljs.core.truth_(or__3548__auto____5184))
+{return or__3548__auto____5184;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'scroll",(function (element,m){
-var map__5985__5986 = one.browser.animation.standardize.call(null,element,m);
-var map__5985__5987 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5985__5986))?cljs.core.apply.call(null,cljs.core.hash_map,map__5985__5986):map__5985__5986);
-var accel__5988 = cljs.core.get.call(null,map__5985__5987,"﷐'accel");
-var time__5989 = cljs.core.get.call(null,map__5985__5987,"﷐'time");
-var end__5990 = cljs.core.get.call(null,map__5985__5987,"﷐'end");
-var start__5991 = cljs.core.get.call(null,map__5985__5987,"﷐'start");
+var map__5185__5186 = one.browser.animation.standardize.call(null,element,m);
+var map__5185__5187 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5185__5186))?cljs.core.apply.call(null,cljs.core.hash_map,map__5185__5186):map__5185__5186);
+var accel__5188 = cljs.core.get.call(null,map__5185__5187,"﷐'accel");
+var time__5189 = cljs.core.get.call(null,map__5185__5187,"﷐'time");
+var end__5190 = cljs.core.get.call(null,map__5185__5187,"﷐'end");
+var start__5191 = cljs.core.get.call(null,map__5185__5187,"﷐'start");
 
-return (new goog.fx.dom.Scroll(element,cljs.core.apply.call(null,cljs.core.array,start__5991),cljs.core.apply.call(null,cljs.core.array,end__5990),time__5989,accel__5988));
+return (new goog.fx.dom.Scroll(element,cljs.core.apply.call(null,cljs.core.array,start__5191),cljs.core.apply.call(null,cljs.core.array,end__5190),time__5189,accel__5188));
 }));
 cljs.core._add_method.call(null,one.browser.animation.standardize,"﷐'swipe",(function (element,m){
-var start__5993 = (function (){var or__3548__auto____5992 = "﷐'start".call(null,m);
+var start__5193 = (function (){var or__3548__auto____5192 = "﷐'start".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5992))
-{return or__3548__auto____5992;
+if(cljs.core.truth_(or__3548__auto____5192))
+{return or__3548__auto____5192;
 } else
 {return cljs.core.Vector.fromArray([0,0]);
 }
 })();
-var end__5995 = (function (){var or__3548__auto____5994 = "﷐'end".call(null,m);
+var end__5195 = (function (){var or__3548__auto____5194 = "﷐'end".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5994))
-{return or__3548__auto____5994;
+if(cljs.core.truth_(or__3548__auto____5194))
+{return or__3548__auto____5194;
 } else
 {return element;
 }
 })();
 
-return (new one.browser.animation.Effect("﷐'swipe",one.browser.animation.size.call(null,start__5993),one.browser.animation.size.call(null,end__5995),(function (){var or__3548__auto____5996 = "﷐'time".call(null,m);
+return (new one.browser.animation.Effect("﷐'swipe",one.browser.animation.size.call(null,start__5193),one.browser.animation.size.call(null,end__5195),(function (){var or__3548__auto____5196 = "﷐'time".call(null,m);
 
-if(cljs.core.truth_(or__3548__auto____5996))
-{return or__3548__auto____5996;
+if(cljs.core.truth_(or__3548__auto____5196))
+{return or__3548__auto____5196;
 } else
 {return one.browser.animation._STAR_default_time_STAR_;
 }
 })(),one.browser.animation.accel.call(null,m)));
 }));
 cljs.core._add_method.call(null,one.browser.animation.effect,"﷐'swipe",(function (element,m){
-var map__5997__5998 = one.browser.animation.standardize.call(null,element,m);
-var map__5997__5999 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5997__5998))?cljs.core.apply.call(null,cljs.core.hash_map,map__5997__5998):map__5997__5998);
-var accel__6000 = cljs.core.get.call(null,map__5997__5999,"﷐'accel");
-var time__6001 = cljs.core.get.call(null,map__5997__5999,"﷐'time");
-var end__6002 = cljs.core.get.call(null,map__5997__5999,"﷐'end");
-var start__6003 = cljs.core.get.call(null,map__5997__5999,"﷐'start");
+var map__5197__5198 = one.browser.animation.standardize.call(null,element,m);
+var map__5197__5199 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5197__5198))?cljs.core.apply.call(null,cljs.core.hash_map,map__5197__5198):map__5197__5198);
+var accel__5200 = cljs.core.get.call(null,map__5197__5199,"﷐'accel");
+var time__5201 = cljs.core.get.call(null,map__5197__5199,"﷐'time");
+var end__5202 = cljs.core.get.call(null,map__5197__5199,"﷐'end");
+var start__5203 = cljs.core.get.call(null,map__5197__5199,"﷐'start");
 
-return (new goog.fx.dom.Swipe(element,cljs.core.apply.call(null,cljs.core.array,start__6003),cljs.core.apply.call(null,cljs.core.array,end__6002),time__6001,accel__6000));
+return (new goog.fx.dom.Swipe(element,cljs.core.apply.call(null,cljs.core.array,start__5203),cljs.core.apply.call(null,cljs.core.array,end__5202),time__5201,accel__5200));
 }));
 /**
 * Cause the passed animations to run in parallel.
@@ -1002,26 +1002,26 @@ return (new goog.fx.dom.Swipe(element,cljs.core.apply.call(null,cljs.core.array,
 */
 one.browser.animation.parallel = (function() { 
 var parallel__delegate = function (effects){
-var parallel__6004 = (new goog.fx.AnimationParallelQueue());
+var parallel__5204 = (new goog.fx.AnimationParallelQueue());
 
-var G__6005__6006 = cljs.core.seq.call(null,effects);
+var G__5205__5206 = cljs.core.seq.call(null,effects);
 
-if(cljs.core.truth_(G__6005__6006))
-{var effect__6007 = cljs.core.first.call(null,G__6005__6006);
-var G__6005__6008 = G__6005__6006;
+if(cljs.core.truth_(G__5205__5206))
+{var effect__5207 = cljs.core.first.call(null,G__5205__5206);
+var G__5205__5208 = G__5205__5206;
 
 while(true){
-parallel__6004.add(effect__6007);
-var temp__3698__auto____6009 = cljs.core.next.call(null,G__6005__6008);
+parallel__5204.add(effect__5207);
+var temp__3698__auto____5209 = cljs.core.next.call(null,G__5205__5208);
 
-if(cljs.core.truth_(temp__3698__auto____6009))
-{var G__6005__6010 = temp__3698__auto____6009;
+if(cljs.core.truth_(temp__3698__auto____5209))
+{var G__5205__5210 = temp__3698__auto____5209;
 
 {
-var G__6011 = cljs.core.first.call(null,G__6005__6010);
-var G__6012 = G__6005__6010;
-effect__6007 = G__6011;
-G__6005__6008 = G__6012;
+var G__5211 = cljs.core.first.call(null,G__5205__5210);
+var G__5212 = G__5205__5210;
+effect__5207 = G__5211;
+G__5205__5208 = G__5212;
 continue;
 }
 } else
@@ -1030,7 +1030,7 @@ break;
 }
 } else
 {}
-return parallel__6004;
+return parallel__5204;
 };
 var parallel = function (var_args){
 var effects = null;
@@ -1040,8 +1040,8 @@ if (goog.isDef(var_args)) {
 return parallel__delegate.call(this, effects);
 };
 parallel.cljs$lang$maxFixedArity = 0;
-parallel.cljs$lang$applyTo = (function (arglist__6013){
-var effects = cljs.core.seq( arglist__6013 );;
+parallel.cljs$lang$applyTo = (function (arglist__5213){
+var effects = cljs.core.seq( arglist__5213 );;
 return parallel__delegate.call(this, effects);
 });
 return parallel;
@@ -1053,26 +1053,26 @@ return parallel;
 */
 one.browser.animation.serial = (function() { 
 var serial__delegate = function (effects){
-var serial__6014 = (new goog.fx.AnimationSerialQueue());
+var serial__5214 = (new goog.fx.AnimationSerialQueue());
 
-var G__6015__6016 = cljs.core.seq.call(null,effects);
+var G__5215__5216 = cljs.core.seq.call(null,effects);
 
-if(cljs.core.truth_(G__6015__6016))
-{var effect__6017 = cljs.core.first.call(null,G__6015__6016);
-var G__6015__6018 = G__6015__6016;
+if(cljs.core.truth_(G__5215__5216))
+{var effect__5217 = cljs.core.first.call(null,G__5215__5216);
+var G__5215__5218 = G__5215__5216;
 
 while(true){
-serial__6014.add(effect__6017);
-var temp__3698__auto____6019 = cljs.core.next.call(null,G__6015__6018);
+serial__5214.add(effect__5217);
+var temp__3698__auto____5219 = cljs.core.next.call(null,G__5215__5218);
 
-if(cljs.core.truth_(temp__3698__auto____6019))
-{var G__6015__6020 = temp__3698__auto____6019;
+if(cljs.core.truth_(temp__3698__auto____5219))
+{var G__5215__5220 = temp__3698__auto____5219;
 
 {
-var G__6021 = cljs.core.first.call(null,G__6015__6020);
-var G__6022 = G__6015__6020;
-effect__6017 = G__6021;
-G__6015__6018 = G__6022;
+var G__5221 = cljs.core.first.call(null,G__5215__5220);
+var G__5222 = G__5215__5220;
+effect__5217 = G__5221;
+G__5215__5218 = G__5222;
 continue;
 }
 } else
@@ -1081,7 +1081,7 @@ break;
 }
 } else
 {}
-return serial__6014;
+return serial__5214;
 };
 var serial = function (var_args){
 var effects = null;
@@ -1091,8 +1091,8 @@ if (goog.isDef(var_args)) {
 return serial__delegate.call(this, effects);
 };
 serial.cljs$lang$maxFixedArity = 0;
-serial.cljs$lang$applyTo = (function (arglist__6023){
-var effects = cljs.core.seq( arglist__6023 );;
+serial.cljs$lang$applyTo = (function (arglist__5223){
+var effects = cljs.core.seq( arglist__5223 );;
 return serial__delegate.call(this, effects);
 });
 return serial;
@@ -1112,17 +1112,17 @@ one.browser.animation.effect_types = cljs.core.ObjMap.fromObject(["﷐'fade-in",
 */
 one.browser.animation.standardize_in_env = (function standardize_in_env(element,env,effect){
 if(cljs.core.truth_(cljs.core.vector_QMARK_.call(null,effect)))
-{var coll__6025 = cljs.core.map.call(null,(function (p1__6024_SHARP_){
-return standardize_in_env.call(null,element,env,p1__6024_SHARP_);
+{var coll__5225 = cljs.core.map.call(null,(function (p1__5224_SHARP_){
+return standardize_in_env.call(null,element,env,p1__5224_SHARP_);
 }),effect);
 
-return cljs.core.Vector.fromArray([cljs.core.apply.call(null,cljs.core.merge,cljs.core.map.call(null,cljs.core.first,coll__6025)),cljs.core.vec.call(null,cljs.core.map.call(null,cljs.core.second,coll__6025))]);
+return cljs.core.Vector.fromArray([cljs.core.apply.call(null,cljs.core.merge,cljs.core.map.call(null,cljs.core.first,coll__5225)),cljs.core.vec.call(null,cljs.core.map.call(null,cljs.core.second,coll__5225))]);
 } else
-{var effect_type__6026 = "﷐'effect".call(null,effect).call(null,one.browser.animation.effect_types);
-var effect__6027 = one.browser.animation.standardize.call(null,cljs.core.get.call(null,env,effect_type__6026,element),effect);
-var env__6028 = cljs.core.assoc.call(null,env,effect_type__6026,effect__6027);
+{var effect_type__5226 = "﷐'effect".call(null,effect).call(null,one.browser.animation.effect_types);
+var effect__5227 = one.browser.animation.standardize.call(null,cljs.core.get.call(null,env,effect_type__5226,element),effect);
+var env__5228 = cljs.core.assoc.call(null,env,effect_type__5226,effect__5227);
 
-return cljs.core.Vector.fromArray([env__6028,effect__6027]);
+return cljs.core.Vector.fromArray([env__5228,effect__5227]);
 }
 });
 /**
@@ -1133,28 +1133,28 @@ return cljs.core.Vector.fromArray([env__6028,effect__6027]);
 */
 one.browser.animation.standardize_all_effects = (function() { 
 var standardize_all_effects__delegate = function (element,effects){
-var env__6029 = cljs.core.ObjMap.fromObject([],{});
-var effects__6030 = effects;
-var std_effects__6031 = cljs.core.Vector.fromArray([]);
+var env__5229 = cljs.core.ObjMap.fromObject([],{});
+var effects__5230 = effects;
+var std_effects__5231 = cljs.core.Vector.fromArray([]);
 
 while(true){
-if(cljs.core.truth_(cljs.core.seq.call(null,effects__6030)))
-{var effect__6033 = cljs.core.first.call(null,effects__6030);
-var vec__6032__6034 = one.browser.animation.standardize_in_env.call(null,element,env__6029,effect__6033);
-var env__6035 = cljs.core.nth.call(null,vec__6032__6034,0,null);
-var effect__6036 = cljs.core.nth.call(null,vec__6032__6034,1,null);
+if(cljs.core.truth_(cljs.core.seq.call(null,effects__5230)))
+{var effect__5233 = cljs.core.first.call(null,effects__5230);
+var vec__5232__5234 = one.browser.animation.standardize_in_env.call(null,element,env__5229,effect__5233);
+var env__5235 = cljs.core.nth.call(null,vec__5232__5234,0,null);
+var effect__5236 = cljs.core.nth.call(null,vec__5232__5234,1,null);
 
 {
-var G__6037 = env__6035;
-var G__6038 = cljs.core.rest.call(null,effects__6030);
-var G__6039 = cljs.core.conj.call(null,std_effects__6031,effect__6036);
-env__6029 = G__6037;
-effects__6030 = G__6038;
-std_effects__6031 = G__6039;
+var G__5237 = env__5235;
+var G__5238 = cljs.core.rest.call(null,effects__5230);
+var G__5239 = cljs.core.conj.call(null,std_effects__5231,effect__5236);
+env__5229 = G__5237;
+effects__5230 = G__5238;
+std_effects__5231 = G__5239;
 continue;
 }
 } else
-{return std_effects__6031;
+{return std_effects__5231;
 }
 break;
 }
@@ -1167,9 +1167,9 @@ if (goog.isDef(var_args)) {
 return standardize_all_effects__delegate.call(this, element, effects);
 };
 standardize_all_effects.cljs$lang$maxFixedArity = 1;
-standardize_all_effects.cljs$lang$applyTo = (function (arglist__6040){
-var element = cljs.core.first(arglist__6040);
-var effects = cljs.core.rest(arglist__6040);
+standardize_all_effects.cljs$lang$applyTo = (function (arglist__5240){
+var element = cljs.core.first(arglist__5240);
+var effects = cljs.core.rest(arglist__5240);
 return standardize_all_effects__delegate.call(this, element, effects);
 });
 return standardize_all_effects;
@@ -1184,38 +1184,38 @@ return standardize_all_effects;
 */
 one.browser.animation.bind = (function() { 
 var bind__delegate = function (element,effects){
-var element__6041 = one.browser.animation.get_element.call(null,element);
-var effects__6042 = cljs.core.apply.call(null,one.browser.animation.standardize_all_effects,element__6041,effects);
-var serial__6043 = (new goog.fx.AnimationSerialQueue());
+var element__5241 = one.browser.animation.get_element.call(null,element);
+var effects__5242 = cljs.core.apply.call(null,one.browser.animation.standardize_all_effects,element__5241,effects);
+var serial__5243 = (new goog.fx.AnimationSerialQueue());
 
-var G__6044__6045 = cljs.core.seq.call(null,effects__6042);
+var G__5244__5245 = cljs.core.seq.call(null,effects__5242);
 
-if(cljs.core.truth_(G__6044__6045))
-{var sequential_effect__6046 = cljs.core.first.call(null,G__6044__6045);
-var G__6044__6047 = G__6044__6045;
-
-while(true){
-if(cljs.core.truth_(cljs.core.vector_QMARK_.call(null,sequential_effect__6046)))
-{var parallel__6048 = (new goog.fx.AnimationParallelQueue());
-
-var G__6049__6050 = cljs.core.seq.call(null,sequential_effect__6046);
-
-if(cljs.core.truth_(G__6049__6050))
-{var parallel_effect__6051 = cljs.core.first.call(null,G__6049__6050);
-var G__6049__6052 = G__6049__6050;
+if(cljs.core.truth_(G__5244__5245))
+{var sequential_effect__5246 = cljs.core.first.call(null,G__5244__5245);
+var G__5244__5247 = G__5244__5245;
 
 while(true){
-parallel__6048.add(one.browser.animation.effect.call(null,element__6041,parallel_effect__6051));
-var temp__3698__auto____6053 = cljs.core.next.call(null,G__6049__6052);
+if(cljs.core.truth_(cljs.core.vector_QMARK_.call(null,sequential_effect__5246)))
+{var parallel__5248 = (new goog.fx.AnimationParallelQueue());
 
-if(cljs.core.truth_(temp__3698__auto____6053))
-{var G__6049__6054 = temp__3698__auto____6053;
+var G__5249__5250 = cljs.core.seq.call(null,sequential_effect__5246);
+
+if(cljs.core.truth_(G__5249__5250))
+{var parallel_effect__5251 = cljs.core.first.call(null,G__5249__5250);
+var G__5249__5252 = G__5249__5250;
+
+while(true){
+parallel__5248.add(one.browser.animation.effect.call(null,element__5241,parallel_effect__5251));
+var temp__3698__auto____5253 = cljs.core.next.call(null,G__5249__5252);
+
+if(cljs.core.truth_(temp__3698__auto____5253))
+{var G__5249__5254 = temp__3698__auto____5253;
 
 {
-var G__6057 = cljs.core.first.call(null,G__6049__6054);
-var G__6058 = G__6049__6054;
-parallel_effect__6051 = G__6057;
-G__6049__6052 = G__6058;
+var G__5257 = cljs.core.first.call(null,G__5249__5254);
+var G__5258 = G__5249__5254;
+parallel_effect__5251 = G__5257;
+G__5249__5252 = G__5258;
 continue;
 }
 } else
@@ -1224,20 +1224,20 @@ break;
 }
 } else
 {}
-serial__6043.add(parallel__6048);
+serial__5243.add(parallel__5248);
 } else
-{serial__6043.add(one.browser.animation.effect.call(null,element__6041,sequential_effect__6046));
+{serial__5243.add(one.browser.animation.effect.call(null,element__5241,sequential_effect__5246));
 }
-var temp__3698__auto____6055 = cljs.core.next.call(null,G__6044__6047);
+var temp__3698__auto____5255 = cljs.core.next.call(null,G__5244__5247);
 
-if(cljs.core.truth_(temp__3698__auto____6055))
-{var G__6044__6056 = temp__3698__auto____6055;
+if(cljs.core.truth_(temp__3698__auto____5255))
+{var G__5244__5256 = temp__3698__auto____5255;
 
 {
-var G__6059 = cljs.core.first.call(null,G__6044__6056);
-var G__6060 = G__6044__6056;
-sequential_effect__6046 = G__6059;
-G__6044__6047 = G__6060;
+var G__5259 = cljs.core.first.call(null,G__5244__5256);
+var G__5260 = G__5244__5256;
+sequential_effect__5246 = G__5259;
+G__5244__5247 = G__5260;
 continue;
 }
 } else
@@ -1246,7 +1246,7 @@ break;
 }
 } else
 {}
-return serial__6043;
+return serial__5243;
 };
 var bind = function (element,var_args){
 var effects = null;
@@ -1256,9 +1256,9 @@ if (goog.isDef(var_args)) {
 return bind__delegate.call(this, element, effects);
 };
 bind.cljs$lang$maxFixedArity = 1;
-bind.cljs$lang$applyTo = (function (arglist__6061){
-var element = cljs.core.first(arglist__6061);
-var effects = cljs.core.rest(arglist__6061);
+bind.cljs$lang$applyTo = (function (arglist__5261){
+var element = cljs.core.first(arglist__5261);
+var effects = cljs.core.rest(arglist__5261);
 return bind__delegate.call(this, element, effects);
 });
 return bind;
@@ -1284,12 +1284,12 @@ one.browser.animation.animation_queue = cljs.core.atom.call(null,cljs.core.ObjMa
 * vector under `:next`.
 */
 one.browser.animation.add_to_queue = (function add_to_queue(queue,id,animations){
-var new_next__6062 = cljs.core.conj.call(null,"﷐'next".call(null,queue),animations);
+var new_next__5262 = cljs.core.conj.call(null,"﷐'next".call(null,queue),animations);
 
 if(cljs.core.truth_("﷐'runner".call(null,queue)))
-{return cljs.core.assoc.call(null,queue,"﷐'next",new_next__6062);
+{return cljs.core.assoc.call(null,queue,"﷐'next",new_next__5262);
 } else
-{return cljs.core.assoc.call(null,queue,"﷐'runner",id,"﷐'running",cljs.core.first.call(null,new_next__6062),"﷐'next",cljs.core.vec.call(null,cljs.core.rest.call(null,new_next__6062)));
+{return cljs.core.assoc.call(null,queue,"﷐'runner",id,"﷐'running",cljs.core.first.call(null,new_next__5262),"﷐'next",cljs.core.vec.call(null,cljs.core.rest.call(null,new_next__5262)));
 }
 });
 /**
@@ -1315,19 +1315,19 @@ if(cljs.core.truth_(cljs.core.empty_QMARK_.call(null,"﷐'next".call(null,queue)
 * animation. If the animation which has completed has an associated
 * `:after` function, run it.
 */
-one.browser.animation.animation_finished = (function animation_finished(id,p__6063){
-var map__6064__6065 = p__6063;
-var map__6064__6066 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6064__6065))?cljs.core.apply.call(null,cljs.core.hash_map,map__6064__6065):map__6064__6065);
-var after__6067 = cljs.core.get.call(null,map__6064__6066,"﷐'after");
+one.browser.animation.animation_finished = (function animation_finished(id,p__5263){
+var map__5264__5265 = p__5263;
+var map__5264__5266 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5264__5265))?cljs.core.apply.call(null,cljs.core.hash_map,map__5264__5265):map__5264__5265);
+var after__5267 = cljs.core.get.call(null,map__5264__5266,"﷐'after");
 
-var new_queue__6068 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_queue,one.browser.animation.record_finished_animation,id);
+var new_queue__5268 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_queue,one.browser.animation.record_finished_animation,id);
 
-if(cljs.core.truth_(after__6067))
-{after__6067.call(null);
+if(cljs.core.truth_(after__5267))
+{after__5267.call(null);
 } else
 {}
-if(cljs.core.truth_(cljs.core._EQ_.call(null,"﷐'runner".call(null,new_queue__6068),id)))
-{return one.browser.animation.play_animations.call(null,id,new_queue__6068);
+if(cljs.core.truth_(cljs.core._EQ_.call(null,"﷐'runner".call(null,new_queue__5268),id)))
+{return one.browser.animation.play_animations.call(null,id,new_queue__5268);
 } else
 {return null;
 }
@@ -1335,16 +1335,16 @@ if(cljs.core.truth_(cljs.core._EQ_.call(null,"﷐'runner".call(null,new_queue__6
 /**
 * Create the animation to run.
 */
-one.browser.animation.make_animation = (function make_animation(p__6069){
-var map__6070__6071 = p__6069;
-var map__6070__6072 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6070__6071))?cljs.core.apply.call(null,cljs.core.hash_map,map__6070__6071):map__6070__6071);
-var animation__6073 = cljs.core.get.call(null,map__6070__6072,"﷐'animation");
-var element__6074 = cljs.core.get.call(null,map__6070__6072,"﷐'element");
+one.browser.animation.make_animation = (function make_animation(p__5269){
+var map__5270__5271 = p__5269;
+var map__5270__5272 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5270__5271))?cljs.core.apply.call(null,cljs.core.hash_map,map__5270__5271):map__5270__5271);
+var animation__5273 = cljs.core.get.call(null,map__5270__5272,"﷐'animation");
+var element__5274 = cljs.core.get.call(null,map__5270__5272,"﷐'element");
 
-if(cljs.core.truth_(element__6074))
-{return one.browser.animation.bind.call(null,element__6074,animation__6073);
+if(cljs.core.truth_(element__5274))
+{return one.browser.animation.bind.call(null,element__5274,animation__5273);
 } else
-{return animation__6073;
+{return animation__5273;
 }
 });
 /**
@@ -1361,23 +1361,23 @@ if(cljs.core.truth_(element__6074))
 * complete before the next animation is started.
 */
 one.browser.animation.play_animations = (function play_animations(id,queue){
-var animation_map__6075 = "﷐'running".call(null,queue);
-var animation__6076 = one.browser.animation.make_animation.call(null,animation_map__6075);
+var animation_map__5275 = "﷐'running".call(null,queue);
+var animation__5276 = one.browser.animation.make_animation.call(null,animation_map__5275);
 
-clojure.browser.event.listen_once.call(null,animation__6076,"finish",(function (){
+clojure.browser.event.listen_once.call(null,animation__5276,"finish",(function (){
 return (new goog.async.Delay((function (){
-return one.browser.animation.animation_finished.call(null,id,animation_map__6075);
+return one.browser.animation.animation_finished.call(null,id,animation_map__5275);
 }))).start(100);
 }));
-var temp__3698__auto____6077 = "﷐'before".call(null,animation_map__6075);
+var temp__3698__auto____5277 = "﷐'before".call(null,animation_map__5275);
 
-if(cljs.core.truth_(temp__3698__auto____6077))
-{var before__6078 = temp__3698__auto____6077;
+if(cljs.core.truth_(temp__3698__auto____5277))
+{var before__5278 = temp__3698__auto____5277;
 
-before__6078.call(null);
+before__5278.call(null);
 } else
 {}
-return one.core.start.call(null,animation__6076);
+return one.core.start.call(null,animation__5276);
 });
 /**
 * Accepts an element and an animation and ensures that this animation
@@ -1397,32 +1397,32 @@ return one.core.start.call(null,animation__6076);
 */
 one.browser.animation.play = (function() {
 var play = null;
-var play__6089 = (function (element,animation){
+var play__5289 = (function (element,animation){
 return play.call(null,element,animation,cljs.core.ObjMap.fromObject([],{}));
 });
-var play__6090 = (function (element,animation,p__6079){
-var map__6080__6081 = p__6079;
-var map__6080__6082 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__6080__6081))?cljs.core.apply.call(null,cljs.core.hash_map,map__6080__6081):map__6080__6081);
-var before__6083 = cljs.core.get.call(null,map__6080__6082,"﷐'before");
-var after__6084 = cljs.core.get.call(null,map__6080__6082,"﷐'after");
-var name__6085 = cljs.core.get.call(null,map__6080__6082,"﷐'name");
+var play__5290 = (function (element,animation,p__5279){
+var map__5280__5281 = p__5279;
+var map__5280__5282 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__5280__5281))?cljs.core.apply.call(null,cljs.core.hash_map,map__5280__5281):map__5280__5281);
+var before__5283 = cljs.core.get.call(null,map__5280__5282,"﷐'before");
+var after__5284 = cljs.core.get.call(null,map__5280__5282,"﷐'after");
+var name__5285 = cljs.core.get.call(null,map__5280__5282,"﷐'name");
 
-var id__6086 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_id,cljs.core.inc);
-var animation__6087 = cljs.core.ObjMap.fromObject(["﷐'name","﷐'id","﷐'element","﷐'animation","﷐'before","﷐'after"],{"﷐'name":name__6085,"﷐'id":id__6086,"﷐'element":element,"﷐'animation":animation,"﷐'before":before__6083,"﷐'after":after__6084});
-var queue__6088 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_queue,one.browser.animation.add_to_queue,id__6086,animation__6087);
+var id__5286 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_id,cljs.core.inc);
+var animation__5287 = cljs.core.ObjMap.fromObject(["﷐'name","﷐'id","﷐'element","﷐'animation","﷐'before","﷐'after"],{"﷐'name":name__5285,"﷐'id":id__5286,"﷐'element":element,"﷐'animation":animation,"﷐'before":before__5283,"﷐'after":after__5284});
+var queue__5288 = cljs.core.swap_BANG_.call(null,one.browser.animation.animation_queue,one.browser.animation.add_to_queue,id__5286,animation__5287);
 
-if(cljs.core.truth_(cljs.core._EQ_.call(null,"﷐'runner".call(null,queue__6088),id__6086)))
-{return one.browser.animation.play_animations.call(null,id__6086,queue__6088);
+if(cljs.core.truth_(cljs.core._EQ_.call(null,"﷐'runner".call(null,queue__5288),id__5286)))
+{return one.browser.animation.play_animations.call(null,id__5286,queue__5288);
 } else
 {return null;
 }
 });
-play = function(element,animation,p__6079){
+play = function(element,animation,p__5279){
 switch(arguments.length){
 case  2 :
-return play__6089.call(this,element,animation);
+return play__5289.call(this,element,animation);
 case  3 :
-return play__6090.call(this,element,animation,p__6079);
+return play__5290.call(this,element,animation,p__5279);
 }
 throw('Invalid arity: ' + arguments.length);
 };
@@ -1436,18 +1436,18 @@ return play;
 */
 one.browser.animation.play_animation = (function() {
 var play_animation = null;
-var play_animation__6092 = (function (animation){
+var play_animation__5292 = (function (animation){
 return play_animation.call(null,animation,cljs.core.ObjMap.fromObject([],{}));
 });
-var play_animation__6093 = (function (animation,opts){
+var play_animation__5293 = (function (animation,opts){
 return one.browser.animation.play.call(null,null,animation,opts);
 });
 play_animation = function(animation,opts){
 switch(arguments.length){
 case  1 :
-return play_animation__6092.call(this,animation);
+return play_animation__5292.call(this,animation);
 case  2 :
-return play_animation__6093.call(this,animation,opts);
+return play_animation__5293.call(this,animation,opts);
 }
 throw('Invalid arity: ' + arguments.length);
 };
