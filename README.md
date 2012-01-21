@@ -1,12 +1,12 @@
 # What is VertNet-app?
 
-VertNet-app is the web application for the VertNet project. It rides on ClojureScript and is deployed to CouchDB as an HTML5 CouchApp. 
+VertNet-app is the web application for the [VertNet](http://vertnet.org) project. It rides on [ClojureScript](https://github.com/clojure/clojurescript), the [Clojure](http://clojure.org/) to JavaScript compiler, and is deployed to [CouchDB](couchdb.apache.org) as an HTML5 [CouchApp](http://couchapp.org). 
 
 # Developing
 
-VertNet rides on the ClojureScript One framework. If you're new to ClojureScript One, watch this quick video. 
+VertNet rides on the [ClojureScript One](http://clojurescriptone.com) framework. For a good introduction to it, watch this quick [video](http://vimeo.com/35153207). 
 
-It also rides on CouchDB, so we'll need to have that installed. Note that in our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`), we'll need to make sure that we're allowing JSONP requests by adding `allow_jsonp = true` to the `http` section:
+VertNet also rides on [CouchDB](couchdb.apache.org), so we'll need to have that installed. Note that in our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`), we'll need to make sure that we're allowing JSONP:
 
 ```bash
 [httpd]
@@ -21,7 +21,7 @@ $ git clone git@github.com:eightysteele/vertnet-app.git
 $ cd vertnet-app
 ```
 
-Next we'll download all of the project dependencies using Leiningen, the build tool for Clojure. To install it, first let's  make sure that we have a `~/bin` directory on our path by editing `~.bashrc` and adding `export PATH=$PATH:~/bin`. Next:
+Next we'll download all of the project dependencies using [Leiningen](https://github.com/technomancy/leiningen), the build tool for Clojure. To install it, first let's  make sure that we have a `~/bin` directory on our path by editing `~.bashrc` and adding `export PATH=$PATH:~/bin`. Next:
 
 ```bash
 $ cd ~/bin 
@@ -59,7 +59,7 @@ VertNet is deployed to CouchDB as an HTML5 CouchApp. To make deploying easier, l
 $ pip install couchapp
 ```
 
-The CouchApp configuration file is located in `app/.couchapprc`. That's where we specify our CouchDB server and credentials.
+The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is located in `app/.couchapprc`. That's where we specify our CouchDB server and credentials.
 
 To deploy:
 
