@@ -1,6 +1,5 @@
 *.*~
 #*
-lib
 *.jar
 classes
 .lein-deps-sum
