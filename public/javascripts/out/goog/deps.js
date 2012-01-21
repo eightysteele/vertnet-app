@@ -61,6 +61,7 @@ goog.addDependency("debug/relativetimeprovider.js", ['goog.debug.RelativeTimePro
 goog.addDependency("debug/formatter.js", ['goog.debug.Formatter', 'goog.debug.HtmlFormatter', 'goog.debug.TextFormatter'], ['goog.debug.RelativeTimeProvider', 'goog.string']);
 goog.addDependency("messaging/messagechannel.js", ['goog.messaging.MessageChannel'], []);
 goog.addDependency("net/xpc/xpc.js", ['goog.net.xpc', 'goog.net.xpc.CfgFields', 'goog.net.xpc.ChannelStates', 'goog.net.xpc.TransportNames', 'goog.net.xpc.TransportTypes', 'goog.net.xpc.UriCfgFields'], ['goog.debug.Logger']);
+goog.addDependency("crypt/sha1.js", ['goog.crypt.Sha1'], []);
 goog.addDependency("uri/uri.js", ['goog.Uri', 'goog.Uri.QueryData'], ['goog.array', 'goog.string', 'goog.structs', 'goog.structs.Map', 'goog.uri.utils', 'goog.uri.utils.ComponentIndex']);
 goog.addDependency("events/keycodes.js", ['goog.events.KeyCodes'], ['goog.userAgent']);
 goog.addDependency("events/keyhandler.js", ['goog.events.KeyEvent', 'goog.events.KeyHandler', 'goog.events.KeyHandler.EventType'], ['goog.events', 'goog.events.BrowserEvent', 'goog.events.EventTarget', 'goog.events.EventType', 'goog.events.KeyCodes', 'goog.userAgent']);
@@ -85,6 +86,7 @@ goog.addDependency("net/xpc/iframepollingtransport.js", ['goog.net.xpc.IframePol
 goog.addDependency("structs/circularbuffer.js", ['goog.structs.CircularBuffer'], []);
 goog.addDependency("debug/debugwindow.js", ['goog.debug.DebugWindow'], ['goog.debug.HtmlFormatter', 'goog.debug.LogManager', 'goog.structs.CircularBuffer', 'goog.userAgent']);
 goog.addDependency("debug/fancywindow.js", ['goog.debug.FancyWindow'], ['goog.debug.DebugWindow', 'goog.debug.LogManager', 'goog.debug.Logger', 'goog.debug.Logger.Level', 'goog.dom.DomHelper', 'goog.object', 'goog.userAgent']);
+goog.addDependency("net/jsonp.js", ['goog.net.Jsonp'], ['goog.Uri', 'goog.dom']);
 goog.addDependency("messaging/abstractchannel.js", ['goog.messaging.AbstractChannel'], ['goog.Disposable', 'goog.debug', 'goog.debug.Logger', 'goog.json', 'goog.messaging.MessageChannel']);
 goog.addDependency("net/xhrmanager.js", ['goog.net.XhrManager', 'goog.net.XhrManager.Event', 'goog.net.XhrManager.Request'], ['goog.Disposable', 'goog.events', 'goog.events.Event', 'goog.events.EventHandler', 'goog.events.EventTarget', 'goog.net.EventType', 'goog.net.XhrIo', 'goog.net.XhrIoPool', 'goog.structs.Map']);
 goog.addDependency("debug/console.js", ['goog.debug.Console'], ['goog.debug.LogManager', 'goog.debug.Logger.Level', 'goog.debug.TextFormatter']);

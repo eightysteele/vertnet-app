@@ -9,7 +9,8 @@
             [goog.events.KeyHandler :as key-handler]
             [clojure.browser.event :as event]
             [one.dispatch :as dispatch]
-            [one.sample.animation :as fx]))
+            [one.sample.animation :as fx]
+            [jaki.couch :as couch]))
 
 (def ^{:doc "A map which contains chunks of HTML which may be used
   when rendering views."}

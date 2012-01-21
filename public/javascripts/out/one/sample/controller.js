@@ -22,13 +22,13 @@ goog.require('goog.uri.utils');
 * update the state to `:greeting` while adding `:name` and `:exists`
 * values to the application's state.
 */
-one.sample.controller.action = (function (){var method_table__1524__auto____4875 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var prefer_table__1525__auto____4876 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var method_cache__1526__auto____4877 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var cached_hierarchy__1527__auto____4878 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
-var hierarchy__1528__auto____4879 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
+one.sample.controller.action = (function (){var method_table__1524__auto____12700 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var prefer_table__1525__auto____12701 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var method_cache__1526__auto____12702 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var cached_hierarchy__1527__auto____12703 = cljs.core.atom.call(null,cljs.core.ObjMap.fromObject([],{}));
+var hierarchy__1528__auto____12704 = cljs.core.get.call(null,cljs.core.ObjMap.fromObject([],{}),"﷐'hierarchy",cljs.core.global_hierarchy);
 
-return (new cljs.core.MultiFn("action","﷐'type","﷐'default",hierarchy__1528__auto____4879,method_table__1524__auto____4875,prefer_table__1525__auto____4876,method_cache__1526__auto____4877,cached_hierarchy__1527__auto____4878));
+return (new cljs.core.MultiFn("action","﷐'type","﷐'default",hierarchy__1528__auto____12704,method_table__1524__auto____12700,prefer_table__1525__auto____12701,method_cache__1526__auto____12702,cached_hierarchy__1527__auto____12703));
 })();
 cljs.core._add_method.call(null,one.sample.controller.action,"﷐'init",(function (_){
 return cljs.core.reset_BANG_.call(null,one.sample.model.state,cljs.core.ObjMap.fromObject(["﷐'state"],{"﷐'state":"﷐'init"}));
@@ -57,8 +57,8 @@ return goog.uri.utils.getHost.call(null,window.location.toString(cljs.core.List.
 * state.
 */
 one.sample.controller.remote = (function remote(f,data,on_success){
-return one.browser.remote.request.call(null,f,cljs.core.str.call(null,one.sample.controller.host.call(null),"/remote"),"﷐'method","POST","﷐'on-success",(function (p1__4880_SHARP_){
-return on_success.call(null,cljs.reader.read_string.call(null,"﷐'body".call(null,p1__4880_SHARP_)));
+return one.browser.remote.request.call(null,f,cljs.core.str.call(null,one.sample.controller.host.call(null),"/remote"),"﷐'method","POST","﷐'on-success",(function (p1__12705_SHARP_){
+return on_success.call(null,cljs.reader.read_string.call(null,"﷐'body".call(null,p1__12705_SHARP_)));
 }),"﷐'on-error",(function (){
 return cljs.core.swap_BANG_.call(null,one.sample.model.state,cljs.core.assoc,"﷐'error","Error communicating with server.");
 }),"﷐'content",cljs.core.str.call(null,"data=",cljs.core.pr_str.call(null,cljs.core.ObjMap.fromObject(["﷐'fn","﷐'args"],{"﷐'fn":f,"﷐'args":data}))));
@@ -74,13 +74,13 @@ return cljs.core.swap_BANG_.call(null,one.sample.model.state,(function (old){
 return cljs.core.assoc.call(null,cljs.core.assoc.call(null,old,"﷐'state","﷐'greeting","﷐'name",name),"﷐'exists",cljs.core.boolean$.call(null,"﷐'exists".call(null,response)));
 }));
 });
-cljs.core._add_method.call(null,one.sample.controller.action,"﷐'greeting",(function (p__4882){
-var map__4883__4884 = p__4882;
-var map__4883__4885 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__4883__4884))?cljs.core.apply.call(null,cljs.core.hash_map,map__4883__4884):map__4883__4884);
-var name__4886 = cljs.core.get.call(null,map__4883__4885,"﷐'name");
+cljs.core._add_method.call(null,one.sample.controller.action,"﷐'greeting",(function (p__12707){
+var map__12708__12709 = p__12707;
+var map__12708__12710 = (cljs.core.truth_(cljs.core.seq_QMARK_.call(null,map__12708__12709))?cljs.core.apply.call(null,cljs.core.hash_map,map__12708__12709):map__12708__12709);
+var name__12711 = cljs.core.get.call(null,map__12708__12710,"﷐'name");
 
-return one.sample.controller.remote.call(null,"﷐'add-name",cljs.core.ObjMap.fromObject(["﷐'name"],{"﷐'name":name__4886}),(function (p1__4881_SHARP_){
-return one.sample.controller.add_name_callback.call(null,name__4886,p1__4881_SHARP_);
+return one.sample.controller.remote.call(null,"﷐'add-name",cljs.core.ObjMap.fromObject(["﷐'name"],{"﷐'name":name__12711}),(function (p1__12706_SHARP_){
+return one.sample.controller.add_name_callback.call(null,name__12711,p1__12706_SHARP_);
 }));
 }));
 one.dispatch.react_to.call(null,cljs.core.set(["﷐'init","﷐'form","﷐'greeting"]),(function (t,d){
