@@ -66,7 +66,7 @@ The CouchApp [configuration file](http://couchapp.org/page/couchapp-config) is l
 To deploy:
 
 ```bash
-$ script/deploy
+$ vertnet-app/script/deploy
 ```
 
 VertNet is now deployed to CouchDB!
