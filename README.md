@@ -1,6 +1,6 @@
 # What is VertNet-app?
 
-VertNet-app is the web application for the [VertNet](http://vertnet.org) project. It rides on [ClojureScript](https://github.com/clojure/clojurescript), the [Clojure](http://clojure.org/) to JavaScript compiler, and is deployed to [CouchDB](couchdb.apache.org) as an HTML5 [CouchApp](http://couchapp.org). 
+VertNet-app is the web application for the [VertNet](http://vertnet.org) project. It rides on [ClojureScript](https://github.com/clojure/clojurescript) (the [Clojure](http://clojure.org/) to JavaScript compiler which leverages [Google Closure Tools](http://code.google.com/closure)), and is deployed to [CouchDB](couchdb.apache.org) as an HTML5 [CouchApp](http://couchapp.org). 
 
 # Developing
 
