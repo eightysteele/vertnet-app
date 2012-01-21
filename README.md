@@ -4,7 +4,7 @@ VertNet-app is the web application for the [VertNet](http://vertnet.org) project
 
 # Developing
 
-VertNet rides on the [ClojureScript One](http://clojurescriptone.com) framework. For a good introduction to it, watch this quick [video](http://vimeo.com/35153207). 
+VertNet leverages the [ClojureScript One](http://clojurescriptone.com) framework. For a good introduction to it, watch this quick [video](http://vimeo.com/35153207). 
 
 VertNet also rides on [CouchDB](couchdb.apache.org), so we'll need to have that installed. Note that when we're developing the app, we'll need our CouchDB configuration file (e.g., `/etc/couchdb/default.ini`) to allow [JSONP](http://en.wikipedia.org/wiki/JSONP) since our app server is different than our CouchDB server:
 
@@ -13,6 +13,8 @@ VertNet also rides on [CouchDB](couchdb.apache.org), so we'll need to have that 
 allow_jsonp = true
 # Other options...
 ```
+
+Our app will access CouchDB using the [Jaki](https://github.com/pandeiro/jaki/blob/master/src/jaki/couch.cljs) ClojureScript client that wraps the CouchDB REST API.
 
 To get started developing, let's fire up our command line and clone the project:
 
