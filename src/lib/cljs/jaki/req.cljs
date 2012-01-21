@@ -11,7 +11,6 @@
   ([url]
      (request url nil "GET" nil nil))
   ([url callback]
-     (js/alert url)
      (request url callback "GET" nil nil))
   ([url callback method]
      (request url callback method nil nil))
